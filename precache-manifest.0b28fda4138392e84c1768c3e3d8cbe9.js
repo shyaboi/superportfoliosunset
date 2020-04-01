@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c10160951bc7f922f7b4214f4eb35a7f",
+    "revision": "cddc71bb85ec6f1db2d0bf04b7abe07b",
     "url": "/superportfoliosunset/index.html"
   },
   {
-    "revision": "e20a97974c3c5c417425",
+    "revision": "c1eedbabeae3fba57e27",
     "url": "/superportfoliosunset/static/css/main.a977f5a6.chunk.css"
   },
   {
-    "revision": "ae89cff6a7246d29177b",
-    "url": "/superportfoliosunset/static/js/2.f7415fcf.chunk.js"
+    "revision": "0c5517d7dbcc71a4741d",
+    "url": "/superportfoliosunset/static/js/2.9c0e954e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/superportfoliosunset/static/js/2.f7415fcf.chunk.js.LICENSE.txt"
+    "url": "/superportfoliosunset/static/js/2.9c0e954e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e20a97974c3c5c417425",
-    "url": "/superportfoliosunset/static/js/main.d9a064b4.chunk.js"
+    "revision": "c1eedbabeae3fba57e27",
+    "url": "/superportfoliosunset/static/js/main.4f851e07.chunk.js"
   },
   {
     "revision": "b2093f8813040a52ed04",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "88e95f4738b94668fccb23f989659523",
     "url": "/superportfoliosunset/static/media/github.88e95f47.png"
+  },
+  {
+    "revision": "33ae4ae9ca6efd48bbf568df9f652e5f",
+    "url": "/superportfoliosunset/static/media/glow.33ae4ae9.png"
   },
   {
     "revision": "c6ccbb68967bfa0a1c785a0cd5ac1390",
