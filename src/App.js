@@ -21,6 +21,9 @@ function App() {
     <div class="card">  <a href="https://shyaboi.github.io/glowingScheduler">
         <img src={glow} alt="glowing scheduler"/></a></div>
 
+    <div class="card">  <a href="https://shyaboi.github.io/glowingScheduler">
+        <img src={glow} alt="glowing scheduler"/></a></div>
+
     <div class="card">  <a href="https://shyaboi.github.io/TubularRepo">
         <img src={namegen} alt="Name Generator"/></a></div>
 
