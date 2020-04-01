@@ -23,7 +23,7 @@ function App() {
     <div class="card">  <a href="https://shyaboi.github.io/glowingScheduler">
         <img src={glow} alt="glowing scheduler"/></a></div>
 
-    <div class="card">  <a href="https://shyaboi.github.io/TubularRepo">
+    <div class="card">  <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/">
         <img src={namegen} alt="Name Generator"/></a></div>
 
     <div class="card">  <a href="https://glacial-beyond-53964.herokuapp.com/pokedex">
@@ -32,7 +32,7 @@ function App() {
     <div class="card">  <a href="https://lorddominic.github.io/grocerEASE">
         <img src={groce} alt="Grocer Ease"/></a></div>
 
-    <div class="card">  <a href="https://shyaboi.github.io/coolScreens">
+    <div class="card">  <a href="https://shyaboi.github.io/coolScreensaverMassivness">
         <img src={screenSave} alt="screen saver"/></a></div>
 
     <div class="card">  <a href="https://shyaboi.github.io/DawnOfWeather/">
