@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f64753c9449c40815bcda3c9764ab0c",
+    "revision": "2288a76e6d17f0f559117ceca7f8c293",
     "url": "/superportfoliosunset/index.html"
   },
   {
-    "revision": "c1eedbabeae3fba57e27",
+    "revision": "5637bcca334f4ee14c1f",
     "url": "/superportfoliosunset/static/css/main.a977f5a6.chunk.css"
   },
   {
-    "revision": "0c5517d7dbcc71a4741d",
-    "url": "/superportfoliosunset/static/js/2.9c0e954e.chunk.js"
+    "revision": "013c46529bbf2ecc9cf3",
+    "url": "/superportfoliosunset/static/js/2.beb3d05e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/superportfoliosunset/static/js/2.9c0e954e.chunk.js.LICENSE.txt"
+    "url": "/superportfoliosunset/static/js/2.beb3d05e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1eedbabeae3fba57e27",
-    "url": "/superportfoliosunset/static/js/main.4f851e07.chunk.js"
+    "revision": "5637bcca334f4ee14c1f",
+    "url": "/superportfoliosunset/static/js/main.d9bc519d.chunk.js"
   },
   {
     "revision": "b2093f8813040a52ed04",
