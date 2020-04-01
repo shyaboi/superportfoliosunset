@@ -8,6 +8,8 @@ import screenSave from './imgs/epi.png'
 import groce from './imgs/groce.png'
 import poke from './imgs/poke.png'
 import namegen from './imgs/namegen.png'
+import glow from './imgs/glow.png'
+
 
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
       <header className="App-header">
     <section class="animated-grid">
 
-    <div class="card">  <a href="https://shyaboi.github.io/TubularRepo…">
+    <div class="card">  <a href="https://shyaboi.github.io/glowingScheduler">
+        <img src={glow} alt="glowing scheduler"/></a></div>
+
+    <div class="card">  <a href="https://shyaboi.github.io/TubularRepo">
         <img src={namegen} alt="Name Generator"/></a></div>
 
     <div class="card">  <a href="https://glacial-beyond-53964.herokuapp.com/pokedex">
