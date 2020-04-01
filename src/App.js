@@ -9,6 +9,7 @@ import groce from './imgs/groce.png'
 import poke from './imgs/poke.png'
 import namegen from './imgs/namegen.png'
 import glow from './imgs/glow.png'
+// import ha from './imgs/ha.png'
 
 
 
