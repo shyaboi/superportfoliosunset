@@ -17,9 +17,6 @@ function App() {
     <div className="App">
       <header className="App-header">
     <section class="animated-grid">
-      
-    <div class="card">  <a href="https://shyaboi.github.io/glowingScheduler">
-        <img src={glow} alt="glowing scheduler"/></a></div>
 
     <div class="card">  <a href="https://shyaboi.github.io/glowingScheduler">
         <img src={glow} alt="glowing scheduler"/></a></div>
