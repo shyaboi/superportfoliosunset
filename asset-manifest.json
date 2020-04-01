@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github.io/superportfoliosunset/static/css/main.5f361e03.chunk.css",
+    "main.js": "/github.io/superportfoliosunset/static/js/main.92c0f7b2.chunk.js",
+    "main.js.map": "/github.io/superportfoliosunset/static/js/main.92c0f7b2.chunk.js.map",
+    "runtime-main.js": "/github.io/superportfoliosunset/static/js/runtime-main.4f6ccf11.js",
+    "runtime-main.js.map": "/github.io/superportfoliosunset/static/js/runtime-main.4f6ccf11.js.map",
+    "static/js/2.2558d832.chunk.js": "/github.io/superportfoliosunset/static/js/2.2558d832.chunk.js",
+    "static/js/2.2558d832.chunk.js.map": "/github.io/superportfoliosunset/static/js/2.2558d832.chunk.js.map",
+    "index.html": "/github.io/superportfoliosunset/index.html",
+    "precache-manifest.8eabc978c491804bca1e0d71d6b56dc0.js": "/github.io/superportfoliosunset/precache-manifest.8eabc978c491804bca1e0d71d6b56dc0.js",
+    "service-worker.js": "/github.io/superportfoliosunset/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/github.io/superportfoliosunset/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.2558d832.chunk.js.LICENSE.txt": "/github.io/superportfoliosunset/static/js/2.2558d832.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/github.io/superportfoliosunset/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f6ccf11.js",
+    "static/js/2.2558d832.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.92c0f7b2.chunk.js"
+  ]
+}
