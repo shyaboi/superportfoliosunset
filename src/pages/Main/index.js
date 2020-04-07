@@ -10,7 +10,7 @@ import poke from '../../imgs/poke.gif'
 import namegen from '../../imgs/namegen.gif'
 import glow from '../../imgs/glow.png'
 import adobe from '../../imgs/lidl.jpg'
-import mp from '../../imgs/mp.gif'
+import mp from '../../imgs/mplidl.gif'
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Contact from './pages/Contact'
 
