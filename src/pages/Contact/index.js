@@ -1,7 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
 // import Container from "../../components/Container";
 // import Col from "../../components/Col";
 // import Row from "../../components/Row";
+
+
+
+
+
+
+
 
 class Contact extends React.Component {
   constructor(props) {
@@ -23,15 +30,18 @@ class Contact extends React.Component {
 
   render() {
     return (
+
       <form onSubmit={this.handleSubmit}>
-        <label>
-          Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
+      <label>
+        Name:
+        <input type="text" value={this.state.value} onChange={this.handleChange} />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  
     );
   }
+ 
 }
 
 export default Contact;
