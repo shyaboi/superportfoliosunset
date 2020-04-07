@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Contact from './pages/Contact'
 import Main from './pages/Main';
+import Footer from './components/Footer';
 
 // import ha from './imgs/ha.png'
 
@@ -19,7 +20,7 @@ function App() {
   <Route exact path="/" component={Main} />
 
  <Route exact path="/Contact" component={Contact} />
-
+<Footer />
     </Router>
     </div>
   );
