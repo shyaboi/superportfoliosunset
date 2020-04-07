@@ -1,16 +1,21 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
-
+#homeButt{
+  max-width: 3em;
+  max-height: 3em;
+  margin-bottom: 0%;
+}
 nav{
+  
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   font-family: 'Baloo Tammudu 2', cursive;
-padding-left: 20%;
-padding-right: 20%;
+
 
 }
 
   ul {
+    
     font-family: 'Baloo Tammudu 2', cursive;
     list-style-type: none;
     margin: 0;
@@ -21,6 +26,8 @@ padding-right: 20%;
   }
   
   li {
+    padding-left: 20%;
+    padding-right: 70%;
     float: left;
   }
   
