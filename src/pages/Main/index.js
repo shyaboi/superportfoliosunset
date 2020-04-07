@@ -53,7 +53,7 @@ function Main() {
     <div class="card border-gradient border-gradient-purple">  <a href="https://glacial-beyond-53964.herokuapp.com/pokedex"><p id='desc'>Pokemon mySQL Minigame</p>
         <img src={poke} alt="Pokemon"/></a></div>
       
-      <div class="card border-gradient border-gradient-purp"> <h1>Ian Sears:</h1><h3>Full Stack Computer Man</h3> <img src={neckbard} alt="NeckBard" /></div>
+      <div className="card border-gradient border-gradient-purp"> <h1>Ian Sears:</h1><h3>Full Stack Computer Man</h3> <img src={neckbard} alt="NeckBard" /></div>
     </section>
          
       </header>
