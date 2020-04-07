@@ -87,23 +87,17 @@ img {
     -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   }
 
 
 
-  .border-gradient  {
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 5px;
-  }
-  .border-gradient-purple  {
-    border-image-source: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-  }
-  
+ 
 
-  .border-gradient-purp {
-    border-image-source: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-  }
+
 
   
   .card:nth-child(1) {
