@@ -1,20 +1,5 @@
 import React, { useState, Component } from "react";
-<<<<<<< HEAD
-
 import './style.css';
-=======
->>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
-// import Container from "../../components/Container";
-// import Col from "../../components/Col";
-// import Row from "../../components/Row";
-
-
-
-
-
-
-
-
 class Contact extends React.Component {
   constructor(props) {
     super(props);
@@ -38,11 +23,7 @@ class Contact extends React.Component {
 
       <form onSubmit={this.handleSubmit}>
       <label>
-<<<<<<< HEAD
        Your Name:
-=======
-        Name:
->>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
         <input type="text" value={this.state.value} onChange={this.handleChange} />
       </label>
       <input type="submit" value="Submit" />
