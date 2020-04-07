@@ -25,18 +25,18 @@ function Main() {
       <header className="App-header">
     <section class="animated-grid">
  {/* <Route exact path="/Contact" component={Contact} /> */}
-        <div class="card border-gradient border-gradient-purple">  <a href="https://stock.adobe.com/contributor/209064146/Ian"><p id='desc'>Adobe Stock Photo Gallery</p>
+        <div class="card border-gradient border-gradient-purple">  <a href="https://stock.adobe.com/contributor/209064146/Ian"><p id='desc'>Adobe Stock</p>
         <img src={adobe} alt="Dawn of weather"/></a></div>
 
 
-    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"><p id='desc'>Lazy Repo Name Generator</p>
+    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"><p id='desc'>Repo Name Gen</p>
         <img src={namegen} alt="Name Generator"/></a></div>
 
 
-    <div class="card border-gradient border-gradient-purple">  <a href="https://lorddominic.github.io/grocerEASE"><p id='desc'>grocerEASE Recepie Shopping</p>
+    <div class="card border-gradient border-gradient-purple">  <a href="https://lorddominic.github.io/grocerEASE"><p id='desc'>grocerEASE</p>
         <img src={groce} alt="Grocer Ease"/></a></div>
 
-    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/glowingScheduler"><p id='desc'>8 Hour Workday scheduler</p>
+    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/glowingScheduler"><p id='desc'>Workday scheduler</p>
 <img src={glow} alt="glowing scheduler"/></a></div>
 
       <div class="card border-gradient border-gradient-purple">  <a href="https://github.com/shyaboi"><p id='desc'>Github</p>
