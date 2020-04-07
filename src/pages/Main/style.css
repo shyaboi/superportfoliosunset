@@ -1,12 +1,15 @@
 img {
-    margin-top: 1%;
+  
+    margin: auto;
     max-width: 100%;
     max-height: 100%;
+   
   }
   
   
   
   .App-header {
+    
     background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     min-height: 100vh;
@@ -16,6 +19,7 @@ img {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    
   }
   
   .App-link {
@@ -33,6 +37,7 @@ img {
   
   
   .animated-grid {
+    
     height: 85vh;
     margin-bottom: 200px;
   
@@ -49,7 +54,7 @@ img {
     grid-template-rows: repeat(4, 25%);
     grid-template-columns: 240px auto auto 240px;
   
-    --stagger-delay: 100ms;
+    --stagger-delay: 50ms;
   }
   
   @keyframes cardEntrance {
@@ -66,6 +71,7 @@ img {
   }
   
   .card {
+    
     overflow: hidden;
     text-align: center;
     padding: inherit;
