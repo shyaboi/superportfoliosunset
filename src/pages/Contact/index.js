@@ -20,7 +20,6 @@ class Contact extends React.Component {
 
   render() {
     return (
-
       <form onSubmit={this.handleSubmit}>
       <label>
        Your Name:
