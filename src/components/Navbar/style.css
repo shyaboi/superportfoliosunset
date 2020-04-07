@@ -1,20 +1,27 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
+  
 }
 #homeButt{
   max-width: 3em;
   max-height: 3em;
   margin-bottom: 0%;
+  -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+  -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+  box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
 }
 nav{
   text-align: center;
   margin-bottom: 0;
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   font-family: 'Baloo Tammudu 2', cursive;
+  
 }
 
   ul {
-    
+    -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+  -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+  box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
     font-family: 'Baloo Tammudu 2', cursive;
     list-style-type: none;
     margin: 0;

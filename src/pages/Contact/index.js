@@ -1,4 +1,6 @@
 import React, { useState, Component } from "react";
+
+import './style.css';
 // import Container from "../../components/Container";
 // import Col from "../../components/Col";
 // import Row from "../../components/Row";
@@ -33,7 +35,7 @@ class Contact extends React.Component {
 
       <form onSubmit={this.handleSubmit}>
       <label>
-        Name:
+       Your Name:
         <input type="text" value={this.state.value} onChange={this.handleChange} />
       </label>
       <input type="submit" value="Submit" />
