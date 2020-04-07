@@ -3,12 +3,35 @@ import React, { useState } from "react";
 // import Col from "../../components/Col";
 // import Row from "../../components/Row";
 
-const Contact = () => {
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
 
-  return (
-    <div>helo wrld
-     </div>
-  );
-};
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+
+  handleSubmit(event) {
+    alert('This feature coming soon! ' + this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          Name:
+          <input type="text" value={this.state.value} onChange={this.handleChange} />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    );
+  }
+}
 
 export default Contact;
