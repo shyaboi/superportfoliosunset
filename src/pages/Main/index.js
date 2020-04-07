@@ -20,7 +20,7 @@ function Main() {
       <header className="App-header">
     <section class="animated-grid">
       
- <div class="card border-gradient border-gradient-purple">  <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"><p id='desc'>MaiLPoem YouTube</p>
+ <div className="card border-gradient border-gradient-purple">  <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"><p id='desc'>MaiLPoem YouTube</p>
         <img src={mp} alt="mail poem youtube"/></a></div>
 
         <div class="card border-gradient border-gradient-purple">  <a href="https://stock.adobe.com/contributor/209064146/Ian"><p id='desc'>Adobe Stock Photo Portfolio</p>
