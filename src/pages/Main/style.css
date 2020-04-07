@@ -1,6 +1,4 @@
 img {
-  
-    margin: auto;
     max-width: 100%;
     max-height: 100%;
    
@@ -9,19 +7,27 @@ img {
   
   
   .App-header {
-    
+    flex-basis: 100%;
+    height: 0;
     background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
     color: white;
     
   }
   
+
+  .App-header a:hover {
+    
+  opacity: 50%;
+    
+  }
+
   .App-link {
     color: #61dafb;
   }
@@ -51,16 +57,16 @@ img {
       'k  🌟 🌟 f'
       'j  i  h  g';
   
-    grid-template-rows: repeat(4, 25%);
-    grid-template-columns: 240px auto auto 240px;
-  
+    grid-template-rows: repeat(4, 20%);
+    grid-template-columns: auto auto auto auto;
+
     --stagger-delay: 50ms;
   }
-  
+
   @keyframes cardEntrance {
     from {
       opacity: 0;
-      transform: scale(0.3);
+      transform: scale(0.1);
       filter: hue-rotate(180deg);
     }
     to {
@@ -81,6 +87,23 @@ img {
   -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   }
+
+
+
+  .border-gradient  {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+  .border-gradient-purple  {
+    border-image-source: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+  
+
+  .border-gradient-purp {
+    border-image-source: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+
   
   .card:nth-child(1) {
     grid-area: a;
@@ -135,3 +158,13 @@ img {
     animation-delay: calc(13 * var(--stagger-delay));
   }
   
+  #desc{
+  font-family: 'Baloo Tammudu 2', cursive;
+outline: black;
+    font-size: 2vh;
+    color: cornsilk;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+ 
