@@ -10,7 +10,11 @@ import poke from '../../imgs/poke.gif'
 import namegen from '../../imgs/namegen.gif'
 import glow from '../../imgs/glow.png'
 import adobe from '../../imgs/lidl.jpg'
+<<<<<<< HEAD
 import mp from '../../imgs/mplidl.gif'
+=======
+
+>>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Contact from './pages/Contact'
 
@@ -24,6 +28,7 @@ function Main() {
     <div className="App">
       <header className="App-header">
     <section class="animated-grid">
+<<<<<<< HEAD
       
  <div class="card border-gradient border-gradient-purple">  <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"><p id='desc'>MaiLPoem YouTube</p>
         <img src={mp} alt="mail poem youtube"/></a></div>
@@ -33,13 +38,25 @@ function Main() {
 
 
     <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"><p id='desc'>Semi-Random Repo Name Gen</p>
+=======
+ {/* <Route exact path="/Contact" component={Contact} /> */}
+        <div class="card border-gradient border-gradient-purple">  <a href="https://stock.adobe.com/contributor/209064146/Ian"><p id='desc'>Adobe Stock</p>
+        <img src={adobe} alt="Dawn of weather"/></a></div>
+
+
+    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"><p id='desc'>Repo Name Gen</p>
+>>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
         <img src={namegen} alt="Name Generator"/></a></div>
 
 
     <div class="card border-gradient border-gradient-purple">  <a href="https://lorddominic.github.io/grocerEASE"><p id='desc'>grocerEASE</p>
         <img src={groce} alt="Grocer Ease"/></a></div>
 
+<<<<<<< HEAD
     <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/glowingScheduler"><p id='desc'>8 Hour Workday scheduler</p>
+=======
+    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/glowingScheduler"><p id='desc'>Workday scheduler</p>
+>>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
 <img src={glow} alt="glowing scheduler"/></a></div>
 
       <div class="card border-gradient border-gradient-purple">  <a href="https://github.com/shyaboi"><p id='desc'>Github</p>

@@ -6,15 +6,19 @@ nav.navbar.navbar-default {
   max-width: 3em;
   max-height: 3em;
   margin-bottom: 0%;
+<<<<<<< HEAD
   -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+=======
+>>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
 }
 nav{
   text-align: center;
   margin-bottom: 0;
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   font-family: 'Baloo Tammudu 2', cursive;
+<<<<<<< HEAD
   
 }
 
@@ -22,6 +26,12 @@ nav{
     -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
+=======
+}
+
+  ul {
+    
+>>>>>>> 8d87d02556224eee832fba7636d1d24eac5e7379
     font-family: 'Baloo Tammudu 2', cursive;
     list-style-type: none;
     margin: 0;
