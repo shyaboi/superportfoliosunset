@@ -10,7 +10,8 @@ import poke from '../../imgs/poke.gif'
 import namegen from '../../imgs/namegen.gif'
 import glow from '../../imgs/glow.png'
 import adobe from '../../imgs/lidl.jpg'
-import mp from '../../imgs/mplidl.gif'
+import mpg from '../../imgs/mplidl.gif'
+import mp from '../../imgs/mp.jpg'
 
 
 function Main() {
@@ -19,9 +20,10 @@ function Main() {
     <div className="App">
       <header className="App-header">
     <section class="animated-grid">
+
+    <div className="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/mailpoemdumb"><p id='desc'>MaiLPoem </p>
+        <img src={mpg} alt="mail poem"/></a></div>
       
- <div className="card border-gradient border-gradient-purple">  <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"><p id='desc'>MaiLPoem YouTube</p>
-        <img src={mp} alt="mail poem youtube"/></a></div>
 
         <div class="card border-gradient border-gradient-purple">  <a href="https://stock.adobe.com/contributor/209064146/Ian"><p id='desc'>Adobe Stock Photo Portfolio</p>
         <img src={adobe} alt="Adobe Stock"/></a></div>
@@ -34,6 +36,8 @@ function Main() {
     <div class="card border-gradient border-gradient-purple">  <a href="https://lorddominic.github.io/grocerEASE"><p id='desc'>grocerEASE</p>
         <img src={groce} alt="Grocer Ease"/></a></div>
 
+ <div className="card border-gradient border-gradient-purple">  <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"><p id='desc'>MaiLPoem YouTube</p>
+        <img src={mp} alt="mail poem youtube"/></a></div>
     <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/glowingScheduler"><p id='desc'>8 Hour Workday scheduler</p>
 <img src={glow} alt="glowing scheduler"/></a></div>
 
