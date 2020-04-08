@@ -15,54 +15,111 @@ import mp from '../../imgs/mp.jpg'
 
 
 function Main() {
-  return (
-    
-    <div className="App">
-      <header className="App-header">
-    <section class="animated-grid">
+    return (
 
-    <div className="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/mailpoemdumb"><p id='desc'>MaiLPoem </p>
-        <img src={mpg} alt="mail poem"/></a></div>
-      
+        <div className="App">
+            <header className="App-header">
+                <section class="animated-grid">
 
-        <div class="card border-gradient border-gradient-purple">  <a href="https://stock.adobe.com/contributor/209064146/Ian"><p id='desc'>Adobe Stock Photo Portfolio</p>
-        <img src={adobe} alt="Adobe Stock"/></a></div>
+                    <div className="card border-gradient border-gradient-purple">
+                        <a href="https://shyaboi.github.io/mailpoemdumb">
+                            <p id='desc'>MaiLPoem HTML</p>
+                            <img src={mpg}
+                                alt="mail poem"/></a>
+                    </div>
 
-
-    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"><p id='desc'>Semi-Random Repo Name Gen</p>
-        <img src={namegen} alt="Name Generator"/></a></div>
-
-
-    <div class="card border-gradient border-gradient-purple">  <a href="https://lorddominic.github.io/grocerEASE"><p id='desc'>grocerEASE</p>
-        <img src={groce} alt="Grocer Ease"/></a></div>
-
- <div className="card border-gradient border-gradient-purple">  <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"><p id='desc'>MaiLPoem YouTube</p>
-        <img src={mp} alt="mail poem youtube"/></a></div>
-    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/glowingScheduler"><p id='desc'>8 Hour Workday scheduler</p>
-<img src={glow} alt="glowing scheduler"/></a></div>
-
-      <div class="card border-gradient border-gradient-purple">  <a href="https://github.com/shyaboi"><p id='desc'>Github</p>
-        <img src={github} alt="Github Link"/></a></div>
-
-    <div class="card border-gradient border-gradient-purple"><a href="https://www.linkedin.com/in/ian-sears-5931734a"><p id='desc'>LinkedIn</p>
-              <img src={linkedIn} alt="LinkedIn Link"/></a></div>
-
-    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/coolScreensaverMassivness"><p id='desc'>ScreenSaver</p>
-        <img src={screenSave} alt="screen saver"/></a></div>
-
-    <div class="card border-gradient border-gradient-purple">  <a href="https://shyaboi.github.io/DawnOfWeather/"><p id='desc'>JQuery Weather</p>
-        <img src={weath} alt="Dawn of weather"/></a></div>
+                    <div className="card">
+                        <a href="https://mailpoem.com">
+                            <p id='desc'>MaiLPoem React Version
+                            </p>
+                            <img src={mpg}
+                                alt="mail poem react"/></a>
+                    </div>
 
 
-    <div class="card border-gradient border-gradient-purple">  <a href="https://glacial-beyond-53964.herokuapp.com/pokedex"><p id='desc'>Pokemon mySQL Minigame</p>
-        <img src={poke} alt="Pokemon"/></a></div>
-      
-      <div className="card border-gradient border-gradient-purp"> <h1>Ian Sears:</h1><h3>Full Stack Computer Man</h3> <img src={neckbard} alt="NeckBard" /></div>
-    </section>
-         
-      </header>
-    </div>
-  );
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://stock.adobe.com/contributor/209064146/Ian">
+                            <p id='desc'>Adobe Stock Photo Portfolio</p>
+                            <img src={adobe}
+                                alt="Adobe Stock"/></a>
+                    </div>
+
+                    <div className="card border-gradient border-gradient-purple">
+                        <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA">
+                            <p id='desc'>MaiLPoem YouTube</p>
+                            <img src={mp}
+                                alt="mail poem youtube"/></a>
+                    </div>
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://github.com/shyaboi">
+                            <p id='desc'>Github</p>
+                            <img src={github}
+                                alt="Github Link"/></a>
+                    </div>
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://www.linkedin.com/in/ian-sears-5931734a">
+                            <p id='desc'>LinkedIn</p>
+                            <img src={linkedIn}
+                                alt="LinkedIn Link"/></a>
+                    </div>
+
+
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://shyaboi.github.io/coolScreensaverMassivness">
+                            <p id='desc'>ScreenSaver p5 Project</p>
+                            <img src={screenSave}
+                                alt="screen saver"/></a>
+                    </div>
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://lorddominic.github.io/grocerEASE">
+                            <p id='desc'>grocerEASE</p>
+                            <img src={groce}
+                                alt="Grocer Ease"/></a>
+                    </div>
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/">
+                            <p id='desc'>Semi-Random Repo Name Gen</p>
+                            <img src={namegen}
+                                alt="Name Generator"/></a>
+                    </div>
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://shyaboi.github.io/glowingScheduler">
+                            <p id='desc'>8 Hour Workday scheduler</p>
+                            <img src={glow}
+                                alt="glowing scheduler"/></a>
+                    </div>
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://shyaboi.github.io/DawnOfWeather/">
+                            <p id='desc'>JQuery Weather</p>
+                            <img src={weath}
+                                alt="Dawn of weather"/></a>
+                    </div>
+
+
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://glacial-beyond-53964.herokuapp.com/pokedex">
+                            <p id='desc'>Pokemon mySQL Minigame</p>
+                            <img src={poke}
+                                alt="Pokemon"/></a>
+                    </div>
+
+                    <div className="card border-gradient border-gradient-purp">
+                        <h1>Ian Sears:</h1>
+                        <h3>Full Stack Computer Man</h3>
+                        <img src={neckbard}
+                            alt="NeckBard"/></div>
+                </section>
+
+            </header>
+        </div>
+    );
 }
 
 export default Main;
