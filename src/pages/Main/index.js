@@ -12,6 +12,8 @@ import glow from '../../imgs/glow.png'
 import adobe from '../../imgs/lidl.jpg'
 import mpg from '../../imgs/mplidl.gif'
 import mp from '../../imgs/mp.jpg'
+import Video from '../../components/video'
+
 
 
 function Main() {
@@ -113,8 +115,8 @@ function Main() {
                     <div className="card border-gradient border-gradient-purp">
                         <h1>Ian Sears:</h1>
                         <h3>Full Stack Computer Man</h3>
-                        <img src={neckbard}
-                            alt="NeckBard"/></div>
+                        <Video />
+                        </div>
                 </section>
 
             </header>
