@@ -16,7 +16,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 1vmin);
+    font-size: calc(1.3vh + 1vmin);
     color: white;
     -webkit-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
     -moz-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
@@ -24,10 +24,6 @@ img {
 
 }
 
-
-.App-link {
-    color: #61dafb;
-}
 
 @keyframes App-logo-spin {
     from {
@@ -150,7 +146,7 @@ img {
 }
 
 #desc {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Roboto', sans-serif;
     outline: black;
     font-size: 2vh;
     color: cornsilk;

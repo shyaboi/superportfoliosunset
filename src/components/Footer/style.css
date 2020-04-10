@@ -1,15 +1,19 @@
 .footer {
-  font-size: xx-large;
-  height: 2.5vw;
+  overflow: hidden;
+  opacity: 75%;
+  height: 5vh;
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 2vh;
   width: 100%;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  background: rgb(28,23,105);
+  background: linear-gradient(90deg, rgba(28,23,105,1) 0%, rgba(28,28,171,1) 35%, rgba(212,86,207,1) 59%, rgba(146,237,255,1) 100%);
   color: white;
   text-align: center;
   -webkit-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3vh + 1vmin);
 }

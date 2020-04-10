@@ -1,27 +1,30 @@
 nav.navbar.navbar-default {
-  margin-bottom: 0;
+  margin-bottom: 2vw;
   
 }
 #homeButt{
   max-width: 3em;
   max-height: 3em;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
   -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
 }
 #homeButt:active {
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,171,1) 35%, rgba(146,237,255,1) 100%);
   
   box-shadow: 0 5px rgba(41, 41, 40, 1);
   transform: translateY(4px);
 }
 
 nav{
+  padding-bottom: 1vw;
   text-align: center;
   margin-bottom: 0;
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-  font-family: 'Baloo Tammudu 2', cursive;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,171,1) 35%, rgba(146,237,255,1) 100%);
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -29,17 +32,18 @@ nav{
     -webkit-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   -moz-box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
   box-shadow: 0px 2px 9px 5px rgba(41,41,40,1);
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: rgb(117,110,231);
+    background: linear-gradient(90deg, rgba(117,110,231,1) 0%, rgba(28,28,171,1) 35%, rgba(212,86,207,1) 74%, rgba(146,237,255,1) 100%);
 
   }
   
   li {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Roboto', sans-serif;
 
     padding-left: 20%;
     padding-right: 70%;
@@ -55,7 +59,7 @@ nav{
   }
   
   li a:hover {
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-
+    background: rgb(71,71,167);
+background: linear-gradient(90deg, rgba(71,71,167,1) 35%, rgba(212,86,207,1) 74%, rgba(146,237,255,1) 100%);
   }
 
