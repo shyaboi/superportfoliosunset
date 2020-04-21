@@ -9,12 +9,14 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-      <img id="homeButt" src={Home} alt="home"/>
+        <div id="homeButt" >
+      <img src={Home} alt="home"/>
+      </div>
       </Link>
       <div>
         <ul className="navbar-nav">
        
-          <li className="nav-item">
+          <li className="nav-item" id="contactButt">
             <Link
               to="/Contact"
               className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}

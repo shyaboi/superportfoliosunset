@@ -113,7 +113,7 @@ function Main() {
                                 alt="Pokemon"/></a>
                     </div>
 
-                    <div   className="card border-gradient border-gradient-purp">
+                    <div id='desc'   className="card border-gradient border-gradient-purp">
                         <h1>Ian Sears</h1>
                         <h3 >Full Stack Web Computer Man</h3>
                         <Video />
