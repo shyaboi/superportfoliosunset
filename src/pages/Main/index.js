@@ -3,16 +3,17 @@ import './style.css';
 import neckbard from '../../imgs/neckbard.jpg'
 import github from '../../imgs/github.png'
 import linkedIn from '../../imgs/linked.png'
-import weath from '../../imgs/weath.gif'
-import screenSave from '../../imgs/epi.gif'
-import groce from '../../imgs/groce.gif'
-import poke from '../../imgs/poke.gif'
-import namegen from '../../imgs/namegen.gif'
+import weath from '../../imgs/weath.png'
+import screenSave from '../../imgs/epi.png'
+import groce from '../../imgs/groce.png'
+import poke from '../../imgs/poke.png'
+import namegen from '../../imgs/namegen.png'
 import glow from '../../imgs/glow.png'
 import adobe from '../../imgs/lidl.jpg'
-import mpg from '../../imgs/mplidl.gif'
-import mp from '../../imgs/mp.jpg'
+import mpy from '../../imgs/mp.png'
+import mp from '../../imgs/mpldl.png'
 import Video from '../../components/video'
+import ss from '../../imgs/ss.png'
 
 
 
@@ -24,17 +25,17 @@ function Main() {
                 <section class="animated-grid">
 
                     <div className="card border-gradient border-gradient-purple">
-                        <a href="https://shyaboi.github.io/mailpoemdumb">
-                            <p id='desc'>MaiLPoem HTML</p>
-                            <img src={mpg}
+                        <a href="https://strategy-scope.herokuapp.com/">
+                            <p id='desc'>Stratagey Scope</p>
+                            <img src={ss}
                                 alt="mail poem"/></a>
                     </div>
 
                     <div className="card">
                         <a href="https://mailpoem.com">
-                            <p id='desc'>MaiLPoem React Version
+                            <p id='desc'>MaiLPoem
                             </p>
-                            <img src={mpg}
+                            <img src={mp}
                                 alt="mail poem react"/></a>
                     </div>
 
@@ -49,7 +50,7 @@ function Main() {
                     <div className="card border-gradient border-gradient-purple">
                         <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA">
                             <p id='desc'>MaiLPoem YouTube</p>
-                            <img src={mp}
+                            <img src={mpy}
                                 alt="mail poem youtube"/></a>
                     </div>
 
@@ -71,7 +72,7 @@ function Main() {
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://shyaboi.github.io/coolScreensaverMassivness">
-                            <p id='desc'>ScreenSaver p5 Project</p>
+                            <p id='desc'>ScreenSaver p5* Project</p>
                             <img src={screenSave}
                                 alt="screen saver"/></a>
                     </div>
@@ -107,14 +108,14 @@ function Main() {
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://glacial-beyond-53964.herokuapp.com/pokedex">
-                            <p id='desc'>Pokemon mySQL Minigame</p>
+                            <p id='desc'>Pokemon<br></br> mySQL Minigame</p>
                             <img src={poke}
                                 alt="Pokemon"/></a>
                     </div>
 
-                    <div className="card border-gradient border-gradient-purp">
-                        <h1>Ian Sears:</h1>
-                        <h3>Full Stack Computer Man</h3>
+                    <div   className="card border-gradient border-gradient-purp">
+                        <h1>Ian Sears</h1>
+                        <h3 >Full Stack Web Computer Man</h3>
                         <Video />
                         </div>
                 </section>
