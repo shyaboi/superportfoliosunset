@@ -7,14 +7,15 @@ import Home from '../../imgs/home.png'
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
+    <nav id='nav' className="navbar navbar-expand-lg navbar-light bg-light">
         <div id="homeButt" >
+      <Link className="navbar-brand" to="/">
       <img src={Home} alt="home"/>
-      </div>
       </Link>
-      <div>
-        <ul className="navbar-nav">
+      </div>
+      <div className="navbar-nav">
+        <div>
+        <ul>
        
           <li className="nav-item" id="contactButt">
             <Link
@@ -25,6 +26,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
   );

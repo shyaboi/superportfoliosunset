@@ -1,19 +1,19 @@
-nav.navbar.navbar-default {
-  margin-bottom: 2vw;
-  text-align: center;
-  align-items: center;
-}
-nav{
+
+#nav{
+  display:inline-block;
+  float: none;
   align-items: center;
   text-align: center;
 }
 #homeButt{
+  display:inline-block;
+  float: none;
+  height: 7vh;
   align-items: center;
-  max-width: 5vh;
-  max-height: 5vh;
-  padding: 1vh;
+  max-width: calc(5vh + 0.5vmin);
+  max-height: calc(5vh + 0.5vmin);
+  margin: .5vh;
   font-family: "Roboto", sans-serif;
-  margin-left:  50%;
   font-size: calc(1.1vh + 0.5vmin);
   border: none;
   outline: none;
@@ -41,7 +41,6 @@ nav{
   position: absolute;
   top: -2px;
   left: -2px;
-  background-size: 400%;
   z-index: -1;
   filter: blur(5px);
   width: calc(100% + 4px);
@@ -81,7 +80,7 @@ nav{
     background-position: 0 0;
   }
   50% {
-    background-position: 400% 0;
+    background-position: 100% 0;
   }
   100% {
     background-position: 0;
@@ -90,11 +89,12 @@ nav{
 
 
 #contactButt{
-  max-width: calc(15vh + 0.5vmin);
-  max-height: calc(4vh + 0.5vmin);
-  padding: 1vh;
+  display:inline-block;
+  float: none;
+  max-width: calc(10vh + 0.5vmin);
+  max-height: calc(2vh + 0.5vmin);
+  padding: .5vh;
   font-family: "Roboto", sans-serif;
-  margin-left:calc(2vh + 0vh);
   font-size: calc(1.1vh + 0.5vmin);
   border: none;
   outline: none;
@@ -188,7 +188,7 @@ nav{
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: .5vh;
     overflow: hidden;
     background: rgb(117,110,231);
     background: linear-gradient(90deg, rgba(117,110,231,1) 0%, rgba(28,28,171,1) 35%, rgba(212,86,207,1) 74%, rgba(146,237,255,1) 100%);
