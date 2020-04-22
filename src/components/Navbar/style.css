@@ -93,9 +93,9 @@
   float: none;
   max-width: calc(10vh + 0.5vmin);
   max-height: calc(2vh + 0.5vmin);
-  padding: .5vh;
+  padding: 1vh;
   font-family: "Roboto", sans-serif;
-  font-size: calc(1.1vh + 0.5vmin);
+  font-size: calc(2vh + 0.5vmin);
   border: none;
   outline: none;
   color: #fff;
@@ -195,22 +195,5 @@ nav{
 
   }
   
-  li {
-  text-align: center;
-
-    font-family: 'Roboto', sans-serif;
-
-    padding-left: 20%;
-    padding-right: 70%;
-    float: left;
-  }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
 
