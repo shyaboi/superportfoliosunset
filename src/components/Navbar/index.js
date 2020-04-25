@@ -21,7 +21,7 @@ function Navbar() {
               style={{ textDecoration: "none" }}
             >
               <Link
-              style={{ color: 'inherit', textDecoration: 'inherit'}}
+                style={{ color: "inherit", textDecoration: "inherit" }}
                 to="/Contact"
                 className={
                   window.location.pathname === "/Contact"
