@@ -8,7 +8,7 @@ import "./style.css";
 function Footer() {
   return (
     <div class="footer">
-    <a href="http://ianss.dev">Portfolio</a>
+    <a href="http://ianss.dev" style={{ textDecoration: 'none' }}>Portfolio</a>
 </div>
   );
 }

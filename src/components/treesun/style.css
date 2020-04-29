@@ -1,0 +1,9 @@
+#treeSun{
+    left: 2vh;
+    position: fixed;
+    z-index: -5;
+    bottom: 6vh;
+    max-width: 25%;
+    max-height: 25%;
+    text-align: center;
+}

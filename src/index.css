@@ -1,3 +1,13 @@
+:root {
+  --grad: linear-gradient(
+    90deg,
+    rgba(28, 23, 105, 1) 0%,
+    rgba(28, 28, 171, 1) 35%,
+    rgba(212, 86, 207, 1) 59%,
+    rgba(146, 237, 255, 1) 100%
+  );
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +15,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: var(--grad);
+  background-size: 350%;
+  animation: bg-ani 40s infinite alternate;
+}
+
+@keyframes bg-ani {
+  0% {
+      background-position: left;
+  }
+  100% {
+      background-position: right;
+  }
 }
 
 code {

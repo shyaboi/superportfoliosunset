@@ -157,24 +157,11 @@
   border-radius: 10px;
 }
 
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0;
-  }
-}
 
 
 nav{
   text-align: center;
   margin-bottom: 0;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,171,1) 35%, rgba(146,237,255,1) 100%);
   font-family: 'Roboto', sans-serif;
   
 }
@@ -190,9 +177,6 @@ nav{
     margin: 0;
     padding: .5vh;
     overflow: hidden;
-    background: rgb(117,110,231);
-    background: linear-gradient(90deg, rgba(117,110,231,1) 0%, rgba(28,28,171,1) 35%, rgba(212,86,207,1) 74%, rgba(146,237,255,1) 100%);
-
   }
   
   

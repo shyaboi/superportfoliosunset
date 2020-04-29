@@ -4,10 +4,14 @@ import { Link } from "react-router-dom";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import TreeSun from './components/treesun/index';
+
 
 ReactDOM.render(
   <React.StrictMode>
+
     <App />
+    <TreeSun />
   </React.StrictMode>,
   document.getElementById('root')
 );
