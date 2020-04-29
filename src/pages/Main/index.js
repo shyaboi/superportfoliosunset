@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import neckbard from '../../imgs/neckbard.jpg'
+// import neckbard from '../../imgs/neckbard.jpg'
 import github from '../../imgs/github.png'
 import linkedIn from '../../imgs/linked.png'
 import weath from '../../imgs/weath.png'
