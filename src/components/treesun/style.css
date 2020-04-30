@@ -6,4 +6,14 @@
     max-width: 25%;
     max-height: 25%;
     text-align: center;
+    animation-name: sunset;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes sunset {
+   100% {left:200px; bottom:220;};
 }
