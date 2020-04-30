@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import treeSun from "../../imgs/treesun.png";
+import treeSun from "../../imgs/sun.png";
 
 
 function TreeSun() {

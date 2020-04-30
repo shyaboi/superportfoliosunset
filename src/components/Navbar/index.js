@@ -33,23 +33,23 @@ function Navbar() {
               </Link>
             </li>
 
-<li
+{/* <li
               className="nav-item"
-              id="contactButt"
+              id="CLI"
               style={{ textDecoration: "none" }}
             >
               <Link
                 style={{ color: "inherit", textDecoration: "inherit" }}
                 to="/Contact"
                 className={
-                  window.location.pathname === "/Contact"
+                  window.location.pathname === "/"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
                       CLI/DB Projects
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
