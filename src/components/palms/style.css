@@ -1,5 +1,7 @@
-#palms{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#palms {
+  position: absolute;
+  bottom: -50vh;
+  left: 0;
+  height: calc(100% - 1%);
+  width: calc(100% - 1%);
 }
