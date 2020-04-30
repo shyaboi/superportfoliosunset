@@ -28,8 +28,26 @@ function Navbar() {
                     ? "nav-link active"
                     : "nav-link"
                 }
-              >
+                >
                 Contact
+              </Link>
+            </li>
+
+<li
+              className="nav-item"
+              id="contactButt"
+              style={{ textDecoration: "none" }}
+            >
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/Contact"
+                className={
+                  window.location.pathname === "/Contact"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                      CLI/DB Projects
               </Link>
             </li>
           </ul>
