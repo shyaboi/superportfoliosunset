@@ -17,7 +17,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: var(--grad);
   background-size: 350%;
-  animation: bg-ani 40s infinite alternate;
+  animation: bg-ani 60s infinite alternate;
+  overflow: hidden;
 }
 
 @keyframes bg-ani {

@@ -1,19 +1,20 @@
 #treeSun{
-    left: 2vh;
-    position: fixed;
+    right: -80vh;
+    bottom: -55vh;
+    position: absolute;
     z-index: -5;
-    bottom: 6vh;
-    max-width: 25%;
-    max-height: 25%;
+    width: 78%;
+    height:78%;
     text-align: center;
     animation-name: sunset;
-    animation-duration: 4s;
-    animation-delay: -2s;
+    animation-duration: 120s;
+    animation-delay: -120s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
 }
 
 @keyframes sunset {
-   100% {left:200px; bottom:220;};
+  /* 50%{right: 0vh; bottom: 0vh;};  */
+   50%{right:160vh; bottom:70vh; height: 35%; width: 35%;}
 }

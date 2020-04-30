@@ -6,7 +6,7 @@ import treeSun from "../../imgs/treesun.png";
 function TreeSun() {
     return (
       <div id="treeSun">
-  <img src={treeSun} alt="treesun" style={{opacity: .6}} />
+  <img src={treeSun} alt="treesun" style={{opacity: .3}} />
   </div>
     );
   }
