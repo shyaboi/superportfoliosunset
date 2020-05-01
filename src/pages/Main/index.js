@@ -64,7 +64,7 @@ function Main() {
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://www.linkedin.com/in/ian-sears-5931734a">
                             <p id='desc'>LinkedIn</p>
-                            <img src={linkedIn}
+                            <img id='linked' src={linkedIn}
                                 alt="LinkedIn Link"/></a>
                     </div>
 

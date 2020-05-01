@@ -28,28 +28,28 @@ function Navbar() {
                     ? "nav-link active"
                     : "nav-link"
                 }
-                >
+              >
                 Contact
               </Link>
             </li>
 
-{/* <li
+            <li
               className="nav-item"
               id="CLI"
               style={{ textDecoration: "none" }}
             >
               <Link
                 style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/Contact"
+                to="/CLI"
                 className={
                   window.location.pathname === "/"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
-                      CLI/DB Projects
+                Backend
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
