@@ -8,6 +8,8 @@ img {
 
 .App-header {
     padding-top: 2vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;

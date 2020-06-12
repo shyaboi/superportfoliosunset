@@ -1,6 +1,6 @@
 #palms {
   position: absolute;
-  bottom: -50vh;
+  bottom: calc(-60% + 1%);
   left: 0;
   height: calc(100% - 1%);
   width: calc(100% - 1%);
