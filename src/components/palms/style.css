@@ -1,8 +1,8 @@
 #palms {
   position: absolute;
-  bottom: calc(-60% + 1%);
-  left: 0;
-  height: calc(100% - 1%);
-  width: calc(100% - 1%);
+  bottom: calc(-60vh + -1vmin);
+  left: calc(-5vw + 1vmin);
+  height: calc(100vh - 1vmin);
+  width: calc(100vh - 1vmin);
   z-index: -5;
 }
