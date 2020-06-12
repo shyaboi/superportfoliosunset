@@ -1,5 +1,5 @@
 #sun{
-    right: -80vh;
+    right: calc(-50vw + 5vw);
     bottom: -55vh;
     position: absolute;
     z-index: -5;
@@ -16,5 +16,5 @@
 
 @keyframes sunset {
   /* 50%{right: 0vh; bottom: 0vh;};  */
-   50%{right:160vh; bottom:70vh; height: 35%; width: 35%;}
+   50%{right:80vw; bottom:80vh; height: 35%; width: 35%;}
 }
