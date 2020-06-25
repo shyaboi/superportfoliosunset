@@ -4,7 +4,7 @@ import './style.css';
 import github from '../../imgs/github.png'
 import linkedIn from '../../imgs/linked.png'
 import weath from '../../imgs/weath.png'
-import screenSave from '../../imgs/epi.png'
+import walls from '../../imgs/walls.png'
 import groce from '../../imgs/groce.png'
 import poke from '../../imgs/poke.png'
 import namegen from '../../imgs/namegen.png'
@@ -71,10 +71,10 @@ function Main() {
 
 
                     <div class="card border-gradient border-gradient-purple">
-                        <a href="https://shyaboi.github.io/coolScreensaverMassivness">
-                            <p id='desc'>ScreenSaver p5* Project</p>
-                            <img src={screenSave}
-                                alt="screen saver"/></a>
+                        <a href="https://dinguswallpapermassiv.herokuapp.com/">
+                            <p id='desc'>MuhWalls</p>
+                            <img src={walls}
+                                alt="wallpaper"/></a>
                     </div>
 
                     <div class="card border-gradient border-gradient-purple">
