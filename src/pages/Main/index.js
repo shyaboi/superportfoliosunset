@@ -28,7 +28,7 @@ function Main() {
                         <a href="https://strategy-scope.herokuapp.com/">
                             <p id='desc'>Stratagey Scope</p>
                             <img src={ss}
-                                alt="mail poem"/></a>
+                                alt="mail poem" /></a>
                     </div>
 
                     <div className="card">
@@ -36,7 +36,7 @@ function Main() {
                             <p id='desc'>MaiLPoem
                             </p>
                             <img src={mp}
-                                alt="mail poem react"/></a>
+                                alt="mail poem react" /></a>
                     </div>
 
 
@@ -44,65 +44,59 @@ function Main() {
                         <a href="https://stock.adobe.com/contributor/209064146/Ian">
                             <p id='desc'>Adobe Stock Photo Portfolio</p>
                             <img src={adobe}
-                                alt="Adobe Stock"/></a>
+                                alt="Adobe Stock" /></a>
                     </div>
 
                     <div className="card border-gradient border-gradient-purple">
                         <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA">
                             <p id='desc'>MaiLPoem YouTube</p>
                             <img src={mpy}
-                                alt="mail poem youtube"/></a>
+                                alt="mail poem youtube" /></a>
                     </div>
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://github.com/shyaboi">
                             <p id='desc'>Github</p>
                             <img src={github}
-                                alt="Github Link"/></a>
+                                alt="Github Link" /></a>
                     </div>
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://www.linkedin.com/in/ian-sears-5931734a">
                             <p id='desc'>LinkedIn</p>
                             <img id='linked' src={linkedIn}
-                                alt="LinkedIn Link"/></a>
+                                alt="LinkedIn Link" /></a>
                     </div>
 
 
 
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://dinguswallpapermassiv.herokuapp.com/">
-                            <p id='desc'>MuhWalls</p>
-                            <img src={walls}
-                                alt="wallpaper"/></a>
-                    </div>
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://lorddominic.github.io/grocerEASE">
                             <p id='desc'>grocerEASE</p>
                             <img src={groce}
-                                alt="Grocer Ease"/></a>
+                                alt="Grocer Ease" /></a>
                     </div>
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/">
                             <p id='desc'>Semi-Random Repo Name Gen</p>
                             <img src={namegen}
-                                alt="Name Generator"/></a>
+                                alt="Name Generator" /></a>
                     </div>
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://shyaboi.github.io/glowingScheduler">
                             <p id='desc'>8 Hour Workday scheduler</p>
                             <img src={glow}
-                                alt="glowing scheduler"/></a>
+                                alt="glowing scheduler" /></a>
                     </div>
 
                     <div class="card border-gradient border-gradient-purple">
                         <a href="https://shyaboi.github.io/DawnOfWeather/">
                             <p id='desc'>JQuery Weather</p>
                             <img src={weath}
-                                alt="Dawn of weather"/></a>
+                                alt="Dawn of weather" /></a>
                     </div>
 
 
@@ -110,14 +104,23 @@ function Main() {
                         <a href="https://glacial-beyond-53964.herokuapp.com/pokedex">
                             <p id='desc'>Pokemon<br></br> mySQL Minigame</p>
                             <img src={poke}
-                                alt="Pokemon"/></a>
+                                alt="Pokemon" /></a>
                     </div>
 
-                    <div id='desc'   className="card border-gradient border-gradient-purp">
+                    <div class="card border-gradient border-gradient-purple">
+                        <a href="https://dinguswallpapermassiv.herokuapp.com/">
+                            <p id='desc'>MuhWalls
+                            </p>
+                            <img src={walls}
+                                alt="wallpaper" /></a>
+                    </div>
+
+                    
+                    <div id='desc' className="card border-gradient border-gradient-purp">
                         <h1>Ian Sears</h1>
                         <h3 >Full Stack Web Computer Man</h3>
                         <Video />
-                        </div>
+                    </div>
                 </section>
 
             </header>
