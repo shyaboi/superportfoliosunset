@@ -33,7 +33,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li
+            {/* <li
               className="nav-item"
               id="CLI"
               style={{ textDecoration: "none" }}
@@ -49,7 +49,7 @@ function Navbar() {
               >
                 Backend
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
