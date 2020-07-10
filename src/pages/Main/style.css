@@ -66,6 +66,7 @@ img {
     box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
     border-style: groove;
     border-color: black;
+    
 }
 
 .card:active {

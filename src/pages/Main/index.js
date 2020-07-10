@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 // import neckbard from '../../imgs/neckbard.jpg'
 import github from '../../imgs/github.png'
 import linkedIn from '../../imgs/linked.png'
@@ -14,24 +16,46 @@ import mpy from '../../imgs/mp.png'
 import mp from '../../imgs/mpldl.png'
 import Video from '../../components/video'
 import ss from '../../imgs/ss.png'
+    
+ 
 
 
 
 function Main() {
-    return (
 
+    function originalDiv() {
+        var elem = document.getElementById('bigboi');
+      elem.innerHTML = `<h1>Ian Sears</h1> <h3 >Full Stack Web Computer Man</h3> <img src="../imgs/me.png" alt="Italian Trulli">`;
+      }
+
+    function ssAppDescription() {
+        var elem = document.getElementById('bigboi');
+      elem.innerHTML = "<h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment.</p>";
+      }
+      function mpAppDescription() {
+        var elem = document.getElementById('bigboi');
+      elem.innerHTML = "<h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story.</p>";
+      }
+      function adobeStock() {
+        var elem = document.getElementById('bigboi');
+      elem.innerHTML = "<h1>Adobe Stock</h1> <br> <p>This ";
+      }
+      function mpYouTube() {
+        var elem = document.getElementById('bigboi');
+      elem.innerHTML = "<h1>YouTube</h1> <br> <p>This Is muh YouTube";
+      }
+    return (
         <div className="App">
             <header className="App-header">
                 <section class="animated-grid">
-
-                    <div className="card border-gradient border-gradient-purple">
+                    <div className="card border-gradient border-gradient-purple" id="ss" onMouseOut={originalDiv} onMouseOver={ssAppDescription}>
                         <a href="https://strategy-scope.herokuapp.com/">
                             <p id='desc'>Stratagey Scope</p>
                             <img src={ss}
                                 alt="mail poem" /></a>
                     </div>
 
-                    <div className="card">
+                    <div className="card"  onMouseOver={mpAppDescription}>
                         <a href="https://mailpoem.com">
                             <p id='desc'>MaiLPoem
                             </p>
@@ -40,14 +64,14 @@ function Main() {
                     </div>
 
 
-                    <div class="card border-gradient border-gradient-purple">
+                    <div class="card border-gradient border-gradient-purple" onMouseOut={originalDiv} onMouseOver={adobeStock}>
                         <a href="https://stock.adobe.com/contributor/209064146/Ian">
                             <p id='desc'>Adobe Stock Photo Portfolio</p>
                             <img src={adobe}
                                 alt="Adobe Stock" /></a>
                     </div>
 
-                    <div className="card border-gradient border-gradient-purple">
+                    <div className="card border-gradient border-gradient-purple" onMouseOut={originalDiv} onMouseOver={mpYouTube}>
                         <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA">
                             <p id='desc'>MaiLPoem YouTube</p>
                             <img src={mpy}
@@ -116,7 +140,7 @@ function Main() {
                     </div>
 
                     
-                    <div id='desc' className="card border-gradient border-gradient-purp">
+                    <div id='bigboi' className="card border-gradient border-gradient-purp">
                         <h1>Ian Sears</h1>
                         <h3 >Full Stack Web Computer Man</h3>
                         <Video />
@@ -129,3 +153,5 @@ function Main() {
 }
 
 export default Main;
+
+
