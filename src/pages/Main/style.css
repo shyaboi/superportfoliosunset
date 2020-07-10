@@ -72,9 +72,8 @@ img {
 .card:active {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,171,1) 35%, rgba(146,237,255,1) 100%);
-  
-  box-shadow: 0 5px rgba(41, 41, 40, 1);
-  transform: translateY(4px);
+    box-shadow: 0 5px rgba(41, 41, 40, 1);
+    transform: translateY(4px);
 }
 
 
@@ -273,8 +272,9 @@ background-size: cover;
 }
 
 #bigboi{
-  background: url("../../imgs/me.png");
-  background-size: cover;
+  /* background: url("../../imgs/me.png"); */
+ 
+
 }
 
 
@@ -283,7 +283,11 @@ background-size: cover;
 background-size: cover;
 }
 
-  #newMidDiv{
-    padding: 2em;
-    font-size: 1em;
+  #newMidDiv {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    width: 25vw;
+    height: 18vw;
+    font-size: 20px;
   }
