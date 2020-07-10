@@ -1,157 +1,220 @@
-import React from 'react';
-import './style.css';
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import "./style.css";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 // import neckbard from '../../imgs/neckbard.jpg'
-import github from '../../imgs/github.png'
-import linkedIn from '../../imgs/linked.png'
-import weath from '../../imgs/weath.png'
-import walls from '../../imgs/walls.png'
-import groce from '../../imgs/groce.png'
-import poke from '../../imgs/poke.png'
-import namegen from '../../imgs/namegen.png'
-import glow from '../../imgs/glow.png'
-import adobe from '../../imgs/lidl.jpg'
-import mpy from '../../imgs/mp.png'
-import mp from '../../imgs/mpldl.png'
-import Video from '../../components/video'
-import ss from '../../imgs/ss.png'
-    
- 
-
-
+import github from "../../imgs/github.png";
+import linkedIn from "../../imgs/linked.png";
+import weath from "../../imgs/weath.png";
+import walls from "../../imgs/walls.png";
+import groce from "../../imgs/groce.png";
+import poke from "../../imgs/poke.png";
+import namegen from "../../imgs/namegen.png";
+import glow from "../../imgs/glow.png";
+import adobe from "../../imgs/lidl.jpg";
+import mpy from "../../imgs/mp.png";
+import mp from "../../imgs/mpldl.png";
+import Video from "../../components/video";
+import ss from "../../imgs/ss.png";
 
 function Main() {
+  function originalDiv() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML = `<div id="newMidDiv"><h1>Ian Sears</h1> <h3 >Full Stack Web Computer Man</h3> <img src="https://i.ibb.co/JdPvygR/me.png" alt="alternatetext"></div>`;
+  }
 
-    function originalDiv() {
-        var elem = document.getElementById('bigboi');
-      elem.innerHTML = `<h1>Ian Sears</h1> <h3 >Full Stack Web Computer Man</h3> <img src="../imgs/me.png" alt="Italian Trulli">`;
-      }
+  function ssAppDescription() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment.</p>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)</div>";
+  }
+  function mpAppDescription() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story.</p></div>";
+  }
+  function adobeStock() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>Adobe Stock</h1> <br> <p>This is muh adobe stock portfolio</div>";
+  }
+  function mpYouTube() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>YouTube</h1> <br> <p>This Is muh YouTube</div>";
+  }
+  function gitHub() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>GitHub</h1> <br> <p>This Is muh GitHub</div>";
+  }
+  function linked() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>LinkedIn</h1> <br> <p>This Is muh LinkedIn</div>";
+  }
+  function grocerEase() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application is meant to bundle all your desire resepies and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipies.</div>";
+  }
+  function nameGen() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>Repo Name Generator</h1> <br> <p>This applicatioin randomly generates a repo name from 2 given name arrays.</div>";
+  }
+  function workWork() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>8 Hour Workday Scheduler</h1> <br> <p>This is a simple sceduler that will save your notes for each hour of your work day.</div>";
+  }
+  function jQ() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>JQuery Weather</h1> <br> <p>This application can take an input of any city in open weathers DB with a fetch API and give current weather with a UV index, wind speed, and humidity, as well as a five day forcast.</div>";
+  }
 
-    function ssAppDescription() {
-        var elem = document.getElementById('bigboi');
-      elem.innerHTML = "<h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment.</p>";
-      }
-      function mpAppDescription() {
-        var elem = document.getElementById('bigboi');
-      elem.innerHTML = "<h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story.</p>";
-      }
-      function adobeStock() {
-        var elem = document.getElementById('bigboi');
-      elem.innerHTML = "<h1>Adobe Stock</h1> <br> <p>This ";
-      }
-      function mpYouTube() {
-        var elem = document.getElementById('bigboi');
-      elem.innerHTML = "<h1>YouTube</h1> <br> <p>This Is muh YouTube";
-      }
-    return (
-        <div className="App">
-            <header className="App-header">
-                <section class="animated-grid">
-                    <div className="card border-gradient border-gradient-purple" id="ss" onMouseOut={originalDiv} onMouseOver={ssAppDescription}>
-                        <a href="https://strategy-scope.herokuapp.com/">
-                            <p id='desc'>Stratagey Scope</p>
-                            <img src={ss}
-                                alt="mail poem" /></a>
-                    </div>
+  function pokemon() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>Pokemon</h1> <br> <p>This application you can add pokemon to a mySQL database, and them have them all printed on a pokedex screen. There is another fight screen availible where you choose two pokemon by number and one will attack until the other 'dies'</p> (this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)</div>";
+  }
+  function muhWalls() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+      "<div id='newMidDiv'><h1>MuhWalls</h1> <br> <p>I always spent tons of time on wallpaper websites picking hundereds of wallpapers to add to my slideshow of nice backrounds. Now i have finally made my own wallpaper site. Currently you can upload and print all the uploaded wallpapers in a lovely grid. I currently have the upload server seperate and offile.</p>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)</div>";
+  }
+  return (
+    <div className="App">
+      <header className="App-header">
+        <section class="animated-grid">
+          <a
+            href="https://strategy-scope.herokuapp.com/"
+            className="card border-gradient border-gradient-purple"
+            id="ss"
+            onMouseOut={originalDiv}
+            onMouseOver={ssAppDescription}
+          >
+            <p id="desc">Stratagey Scope</p>
+          </a>
 
-                    <div className="card"  onMouseOver={mpAppDescription}>
-                        <a href="https://mailpoem.com">
-                            <p id='desc'>MaiLPoem
-                            </p>
-                            <img src={mp}
-                                alt="mail poem react" /></a>
-                    </div>
+          <a
+            href="https://mailpoem.com"
+            id="mp"
+            className="card"
+            onMouseOut={originalDiv}
+            onMouseOver={mpAppDescription}
+          >
+            <p id="desc">MaiLPoem</p>
+          </a>
 
+          <a
+            href="https://stock.adobe.com/contributor/209064146/Ian"
+            id="adobe"
+            className="card border-gradient border-gradient-purple"
+            onMouseOut={originalDiv}
+            onMouseOver={adobeStock}
+          >
+            <p id="desc">Adobe Stock Photo Portfolio</p>
+          </a>
 
-                    <div class="card border-gradient border-gradient-purple" onMouseOut={originalDiv} onMouseOver={adobeStock}>
-                        <a href="https://stock.adobe.com/contributor/209064146/Ian">
-                            <p id='desc'>Adobe Stock Photo Portfolio</p>
-                            <img src={adobe}
-                                alt="Adobe Stock" /></a>
-                    </div>
+          <a
+            href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA"
+            id="mpty"
+            className="card border-gradient border-gradient-purple"
+            onMouseOut={originalDiv}
+            onMouseOver={mpYouTube}
+          >
+            <p id="desc">MaiLPoem YouTube</p>
+          </a>
 
-                    <div className="card border-gradient border-gradient-purple" onMouseOut={originalDiv} onMouseOver={mpYouTube}>
-                        <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA">
-                            <p id='desc'>MaiLPoem YouTube</p>
-                            <img src={mpy}
-                                alt="mail poem youtube" /></a>
-                    </div>
+          <a
+            href="https://github.com/shyaboi"
+            id="github"
+            class="card border-gradient border-gradient-purple"
+            onMouseOut={originalDiv}
+            onMouseOver={gitHub}
+          >
+            <p id="desc">GitHub</p>
+          </a>
 
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://github.com/shyaboi">
-                            <p id='desc'>Github</p>
-                            <img src={github}
-                                alt="Github Link" /></a>
-                    </div>
+          <a
+            href="https://www.linkedin.com/in/ian-sears-5931734a"
+            id="linked"
+            className="card border-gradient border-gradient-purple"
+            onMouseOut={originalDiv}
+            onMouseOver={linked}
+          >
+            <p id="desc">LinkedIn</p>
+          </a>
 
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://www.linkedin.com/in/ian-sears-5931734a">
-                            <p id='desc'>LinkedIn</p>
-                            <img id='linked' src={linkedIn}
-                                alt="LinkedIn Link" /></a>
-                    </div>
+          <a
+            href="https://lorddominic.github.io/grocerEASE"
+            id="grocerEase"
+            className="card border-gradient border-gradient-purple"
+            onMouseOut={originalDiv}
+            onMouseOver={grocerEase}
+          >
+            <p id="desc">grocerEASE</p>
+          </a>
 
+     
+            <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"
+            id="nameGen"
+             class="card border-gradient border-gradient-purple"
+             onMouseOut={originalDiv}
+             onMouseOver={nameGen}>
+              <p id="desc">Semi-Random Repo Name Gen</p>
+            </a>
 
+  
+            <a href="https://shyaboi.github.io/glowingScheduler"
+            id="glow"
+                class="card border-gradient border-gradient-purple"
+                onMouseOut={originalDiv}
+                onMouseOver={workWork}>
+              <p id="desc">8 Hour Workday scheduler</p>
+            </a>
 
+      
+            <a href="https://shyaboi.github.io/DawnOfWeather/"
+            id="jQ"
+             class="card border-gradient border-gradient-purple"
+             onMouseOut={originalDiv}
+             onMouseOver={jQ}>
+              <p id="desc">JQuery Weather</p>
+            </a>
 
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://lorddominic.github.io/grocerEASE">
-                            <p id='desc'>grocerEASE</p>
-                            <img src={groce}
-                                alt="Grocer Ease" /></a>
-                    </div>
+        
+            <a href="https://glacial-beyond-53964.herokuapp.com/pokedex"
+            id="pokemon"
+             class="card border-gradient border-gradient-purple"
+             onMouseOut={originalDiv}
+             onMouseOver={pokemon}>
+              <p id="desc">Pokemon</p>
+            </a>
 
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/">
-                            <p id='desc'>Semi-Random Repo Name Gen</p>
-                            <img src={namegen}
-                                alt="Name Generator" /></a>
-                    </div>
+          <a
+            href="https://dinguswallpapermassiv.herokuapp.com/"
+            id="walls"
+            className="card border-gradient border-gradient-purple"
+            onMouseOut={originalDiv}
+            onMouseOver={muhWalls}
+          >
+            <p id="desc">MuhWalls</p>
+          </a>
 
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://shyaboi.github.io/glowingScheduler">
-                            <p id='desc'>8 Hour Workday scheduler</p>
-                            <img src={glow}
-                                alt="glowing scheduler" /></a>
-                    </div>
-
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://shyaboi.github.io/DawnOfWeather/">
-                            <p id='desc'>JQuery Weather</p>
-                            <img src={weath}
-                                alt="Dawn of weather" /></a>
-                    </div>
-
-
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://glacial-beyond-53964.herokuapp.com/pokedex">
-                            <p id='desc'>Pokemon<br></br> mySQL Minigame</p>
-                            <img src={poke}
-                                alt="Pokemon" /></a>
-                    </div>
-
-                    <div class="card border-gradient border-gradient-purple">
-                        <a href="https://dinguswallpapermassiv.herokuapp.com/">
-                            <p id='desc'>MuhWalls
-                            </p>
-                            <img src={walls}
-                                alt="wallpaper" /></a>
-                    </div>
-
-                    
-                    <div id='bigboi' className="card border-gradient border-gradient-purp">
-                        <h1>Ian Sears</h1>
-                        <h3 >Full Stack Web Computer Man</h3>
-                        <Video />
-                    </div>
-                </section>
-
-            </header>
-        </div>
-    );
+          <div
+            id="bigboi"
+            className="card border-gradient border-gradient-purp"
+          >
+            <h1>Ian Sears</h1>
+            <h3>Full Stack Web Computer Man</h3>
+          </div>
+        </section>
+      </header>
+    </div>
+  );
 }
 
 export default Main;
-
-

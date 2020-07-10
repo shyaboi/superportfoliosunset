@@ -38,7 +38,7 @@ img {
     grid-template-rows: repeat(4, 20%);
     grid-template-columns: auto auto auto auto;
 
-    --stagger-delay: 200ms;
+    --stagger-delay: 20ms;
 }
 
 
@@ -59,7 +59,7 @@ img {
     overflow: hidden;
     text-align: center;
     padding: inherit;
-    animation: cardInit 2000ms ease-out;
+    animation: cardInit 200ms ease-out;
     animation-fill-mode: backwards;
     -webkit-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
     -moz-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
@@ -219,6 +219,71 @@ img {
     }
   }
 
-  #linked{
-    border-radius: 100%;
+#ss{
+  background: url("../../imgs/ss.png");
+background-size: cover;
+}
+#mp{
+  background: url("../../imgs/mpldl.png");
+background-size: cover;
+}
+#adobe{
+  background: url("../../imgs/lidl.jpg");
+  background-size: cover;
+}
+
+#mpty{
+  background: url("../../imgs/mp.jpg");
+background-size: cover;
+}
+
+#github{
+  background: url("../../imgs/github.png");
+  background-size: cover;
+}
+
+#linked{
+  background: url("../../imgs/linked.png");
+  background-size: cover;
+    
+  }  
+
+#nameGen{
+  background: url("../../imgs/namegen.png");
+  background-size: cover;
+}
+
+#glow{
+  background: url("../../imgs/glow.png");
+  background-size: cover;
+}
+
+#jQ{
+  background: url("../../imgs/weath.png");
+  background-size: cover;
+}
+
+#pokemon{
+  background: url("../../imgs/poke.png");
+  background-size: cover;
+}
+#walls{
+  background: url("../../imgs/walls.png");
+  background-size: cover;
+}
+
+#bigboi{
+  background: url("../../imgs/me.png");
+  background-size: cover;
+}
+
+
+#grocerEase{
+  background: url("../../imgs/groce.png");
+background-size: cover;
+}
+
+  #newMidDiv{
+    padding: 2em;
+    font-size: 1em;
   }
