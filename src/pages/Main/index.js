@@ -82,7 +82,7 @@ function Main() {
   function muhWalls() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-      "<div id='newMidDiv'><h1>MuhWalls</h1><p>I always spent tons of time on wallpaper websites picking hundereds of wallpapers to add to my wallpaper folder. Now i have finally made my own wallpaper site. Currently the site can upload images and print all the uploaded wallpapers in a lovely grid. I currently have the upload server seperate and offline. </p><br>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)";
+      "<div id='newMidDiv'><h1>MuhWalls</h1><p>I always spent tons of time on wallpaper websites picking hundereds of wallpapers to add to my wallpaper folder. Now i have finally made my own wallpaper site. Currently the site can upload images and print all the uploaded wallpapers in a lovely grid. I currently have the upload server seperate and running on a raspberry pi</p><br>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)";
   }
   return (
     <div className="App">
