@@ -25,7 +25,7 @@ function Main() {
   function mpAppDescription() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-      "<div id='newMidDiv'><h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story. It is currently still a work in progress. <br> <a href='https://github.com/shyaboi/mailpoem'>Github</a> <br><a href='https://mailpoem.com/'>Deployed Site</a></p></div> ";
+      "<div id='newMidDiv'><h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story. It is currently still a work in progress. All music and artwork used in this project was created by myself. <br> <a href='https://github.com/shyaboi/mailpoem'>Github</a> <br><a href='https://mailpoem.com/'>Deployed Site</a></p></div> ";
   }
   function snake() {
     var elem = document.getElementById("bigboi");
