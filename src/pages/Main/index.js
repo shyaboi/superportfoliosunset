@@ -161,7 +161,7 @@ function Main() {
             class="card border-gradient border-gradient-purple"
             onMouseOver={nameGen}
           >
-            <p id="desc">Repo Name Gen</p>
+            <p id="desc">Repo Name Generator</p>
           </a>
 
           <a
