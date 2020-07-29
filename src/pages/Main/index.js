@@ -43,17 +43,17 @@ function Main() {
   function word() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Words</h1> <br> <p>This is a word app. I wanted to practice with manipulating strings in different ways to changed their structure. My next plans will include an anagram checker <br> Currently the app can have a word entered. The app then checks if that word is a palindrome. It then prints the reverse of the word, displays the numberr of letters in the word, sorts the letters A~Z, then Z~A and does an API lookup for synonyms and definitions. <br> <a href='https://github.com/shyaboi/wordapp'>Github</a> <br><a href='https://shyaboi.github.io/wordapp/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Words</h1> <br> <p>This is a word app. I wanted to practice with manipulating strings in different ways to changed their structure. My next plans will include an anagram checker <br> Currently the app can have a word entered. The app then checks if that word is a palindrome. It then prints the reverse of the word, displays the number of letters in the word, sorts the letters A~Z, then Z~A and does an API lookup for synonyms and definitions. <br> <a href='https://github.com/shyaboi/wordapp'>Github</a> <br><a href='https://shyaboi.github.io/wordapp/'>Deployed Site</a></div>";
   }
   function grocerEase() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application is meant to bundle all your desire resepies and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipies.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application is meant to bundle all your desire recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
   }
   function nameGen() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Repo Name Generator</h1> <br> <p>This applicatioin randomly generates a repo name from 2 given name arrays. I plan on making different repo version settings, i.e. create-react-app wants repos to be all lowercase. I have also made an electron app version that can be installed and executed on mac, osx and linux. <br> <a href='https://github.com/shyaboi/TubularRepoNameGeneratorSoldier'>Github</a><br> <a href='https://github.com/shyaboi/tubularreponamegeneratorsoldierelectron'> Electron app version </a> <br><a href='https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Repo Name Generator</h1> <br> <p>This applicatioin randomly generates a repo name from 2 given name arrays. I plan on making different repo version settings, i.e. create-react-app wants repos to be all lowercase. I also plan on moving the name bank to a database and letting users add their own names. I have also made an electron app version that can be installed and executed on mac, osx and linux. <br> <a href='https://github.com/shyaboi/TubularRepoNameGeneratorSoldier'>Github</a><br> <a href='https://github.com/shyaboi/tubularreponamegeneratorsoldierelectron'> Electron app version </a> <br><a href='https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/'>Deployed Site</a></div>";
   }
   function workWork() {
     var elem = document.getElementById("bigboi");
