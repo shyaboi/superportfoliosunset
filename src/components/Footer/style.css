@@ -1,9 +1,9 @@
 .footer {
   overflow: hidden;
-  height: 5vh;
+  height: 6vh;
   position: fixed;
   left: 0;
-  bottom: 2vh;
+  bottom: 1vh;
   width: 100%;
   color: white;
   text-align: center;
@@ -13,4 +13,22 @@
   align-items: center;
   justify-content: center;
   font-size: calc(3vh + 1vmin);
+}
+
+.footer >a{
+  padding: 1vw;
+  margin: 1vw;
+}
+
+#gitHub{
+  border-radius: 50%;
+}
+#linkedIn{
+  border-radius: 50%;
+}
+#youTube{
+  border-radius: 50%;
+}
+#adobe{
+  border-radius: 50%;
 }

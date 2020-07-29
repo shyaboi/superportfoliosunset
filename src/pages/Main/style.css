@@ -226,23 +226,23 @@ background-size: cover;
   background: url("../../imgs/mpldl.png");
 background-size: cover;
 }
-#adobe{
-  background: url("../../imgs/lidl.jpg");
+#snake{
+  background: url("../../imgs/snake.png");
   background-size: cover;
 }
 
-#mpty{
-  background: url("../../imgs/mp.jpg");
+#npop{
+  background: url("../../imgs/npop.png");
 background-size: cover;
 }
 
-#github{
-  background: url("../../imgs/github.png");
+#word{
+  background: url("../../imgs/word.png");
   background-size: cover;
 }
 
-#linked{
-  background: url("../../imgs/linked.png");
+#walls2{
+  background: url("../../imgs/walls2.png");
   background-size: cover;
     
   }  
@@ -271,11 +271,10 @@ background-size: cover;
   background-size: cover;
 }
 
-/* #bigboi{ */
-  /* background: url("../../imgs/me.png"); */
+#bigboi{ 
  
-
-/* } */
+background: #000;
+ }
 
 
 #grocerEase{
@@ -284,10 +283,15 @@ background-size: cover;
 }
 
   #newMidDiv {
+    height: 35vw;
+    width: 35vw;
     text-align: center;
     font-family: "Roboto", sans-serif;
     display: inline-block;
-    width: 25vw;
-    height: 18vw;
-    font-size: 20px;
+    font-size: 17px;
   }
+  @media screen and (max-width: 768px) {
+    #newMidDiv {
+        font-size: 22px;
+      }
+    }
