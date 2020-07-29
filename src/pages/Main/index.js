@@ -18,7 +18,7 @@ function Main() {
   function ssAppDescription() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment.</p>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)<br> <a href='https://github.com/justinkellogg89/miniature-disco'>Github</a> <br><a href='https://strategy-scope.herokuapp.com/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment. This application has routes made with node. A front end delivered by react, and mongo database. Oauth is used for login authentication.</p>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)<br> <a href='https://github.com/justinkellogg89/miniature-disco'>Github</a> <br><a href='https://strategy-scope.herokuapp.com/'>Deployed Site</a></div>";
   }
   function mpAppDescription() {
     var elem = document.getElementById("bigboi");
