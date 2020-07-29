@@ -271,16 +271,17 @@ background-size: cover;
   background-size: cover;
 }
 
-#bigboi{ 
- 
-background: #000;
- }
-
-
 #grocerEase{
   background: url("../../imgs/groce.png");
 background-size: cover;
 }
+
+
+#bigboi{  
+background: #000;
+ }
+
+
 
   #newMidDiv {
     height: 35vw;
