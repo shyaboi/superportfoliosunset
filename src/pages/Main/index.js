@@ -48,7 +48,7 @@ function Main() {
   function grocerEase() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application is meant to bundle all your desire recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application is meant to bundle all your desired recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
   }
   function nameGen() {
     var elem = document.getElementById("bigboi");
