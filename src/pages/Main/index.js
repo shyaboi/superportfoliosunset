@@ -15,8 +15,6 @@ import "./style.css";
 import Video from "../../components/video";
 
 function Main() {
- 
-
   function ssAppDescription() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
@@ -45,7 +43,7 @@ function Main() {
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <br> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and widthm and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable. <br> This site and server are hosted on a google cloud compute en1 and tunneled with ngrok. <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='https://donus.ngrok.io/'>Deployed Site</a></div>";
+      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <br> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server are hosted on a google cloud Linux VM en1 machine, and tunneled with ngrok. <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='https://donus.ngrok.io/'>Deployed Site</a></div>";
   }
   function grocerEase() {
     var elem = document.getElementById("bigboi");
@@ -86,8 +84,7 @@ function Main() {
   return (
     <div className="App">
       <header className="App-header" onMouseLeave={originalDiv}>
-            
-        <section class="animated-grid" >
+        <section class="animated-grid">
           <a
             href="https://strategy-scope.herokuapp.com/"
             className="card border-gradient border-gradient-purple"
@@ -115,24 +112,6 @@ function Main() {
           </a>
 
           <a
-            href="https://mailpoem.com"
-            id="mp"
-            className="card"
-            onMouseOver={mpAppDescription}
-          >
-            <p id="desc">MaiLPoem</p>
-          </a>
-
-          <a
-            href="https://shyaboi.github.io/canvasnake/"
-            id="snake"
-            className="card border-gradient border-gradient-purple"
-            onMouseOver={snake}
-          >
-            <p id="desc">Canvas Snake</p>
-          </a>
-
-          <a
             href="https://npopio.herokuapp.com/"
             id="npop"
             className="card border-gradient border-gradient-purple"
@@ -150,7 +129,6 @@ function Main() {
             <p id="desc">Fun with strings</p>
           </a>
 
-
           <a
             href="https://lorddominic.github.io/grocerEASE"
             id="grocerEase"
@@ -160,47 +138,67 @@ function Main() {
             <p id="desc">grocerEASE</p>
           </a>
 
-     
-            <a href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"
+          <a
+            href="https://shyaboi.github.io/canvasnake/"
+            id="snake"
+            className="card border-gradient border-gradient-purple"
+            onMouseOver={snake}
+          >
+            <p id="desc">Canvas Snake</p>
+          </a>
+          <a
+            href="https://mailpoem.com"
+            id="mp"
+            className="card"
+            onMouseOver={mpAppDescription}
+          >
+            <p id="desc">MaiLPoem</p>
+          </a>
+
+          <a
+            href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"
             id="nameGen"
-             class="card border-gradient border-gradient-purple"
-             onMouseOver={nameGen}>
-              <p id="desc">Repo Name Gen</p>
-            </a>
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={nameGen}
+          >
+            <p id="desc">Repo Name Gen</p>
+          </a>
 
-  
-            <a href="https://shyaboi.github.io/glowingScheduler"
+          <a
+            href="https://shyaboi.github.io/glowingScheduler"
             id="glow"
-                class="card border-gradient border-gradient-purple"
-                onMouseOver={workWork}>
-              <p id="desc">8 Hour Workday scheduler</p>
-            </a>
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={workWork}
+          >
+            <p id="desc">8 Hour scheduler</p>
+          </a>
 
-      
-            <a href="https://shyaboi.github.io/DawnOfWeather/"
+          <a
+            href="https://shyaboi.github.io/DawnOfWeather/"
             id="jQ"
-             class="card border-gradient border-gradient-purple"
-             onMouseOver={jQ}>
-              <p id="desc">JQuery Weather</p>
-            </a>
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={jQ}
+          >
+            <p id="desc">JQuery Weather</p>
+          </a>
 
-        
-            <a href="https://glacial-beyond-53964.herokuapp.com/pokedex"
+          <a
+            href="https://glacial-beyond-53964.herokuapp.com/pokedex"
             id="pokemon"
-             class="card border-gradient border-gradient-purple"
-             onMouseOver={pokemon}>
-              <p id="desc">Pokemon</p>
-            </a>
-
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={pokemon}
+          >
+            <p id="desc">Pokemon</p>
+          </a>
 
           <div
             id="bigboi"
             className="card border-gradient border-gradient-purp"
           >
-              <div id="newMidDiv">
-            <h1>Ian Sears</h1>
-            <h3>Full Stack Web Computer Man</h3>
-            <Video />
+            <div id="newMidDiv">
+              <h1>Ian Sears</h1>
+              <h3>Full Stack Web Computer Man</h3>
+              <Video />
             </div>
           </div>
         </section>
