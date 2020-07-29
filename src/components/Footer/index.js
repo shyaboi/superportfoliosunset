@@ -14,7 +14,7 @@ function Footer() {
     
     <a href="https://github.com/shyaboi"><img src={github} id='gitHub'/></a>
     <a href="https://www.linkedin.com/in/ian-sears-5931734a" ><img src={linkedIn} id='linkedIn'/></a>
-    <a href="https://github.com/shyaboi" ><img src={youTube} id='youTube'/></a>
+    <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA?view_as=subscriber" ><img src={youTube} id='youTube'/></a>
     <a href="https://stock.adobe.com/contributor/209064146/Ian" ><img src={adobe} id='adobe'/></a>
 
 </div>
