@@ -58,7 +58,7 @@ function Main() {
   function forum() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>MuhForum</h1> <br> <p>This is a forum site. It is currently a work in progress. It is made with Nodejs, express-handlebars and I am using UI kit for a front end framework. Mongo is the database and each post and all the replys are all stored in one collection with no seperate relations in the DB. Future plans include; a voting system that will tie into the post position on the board. <br> <a href='https://github.com/shyaboi/forum'>Github</a> <br><a href='https://hidden-tundra-72153.herokuapp.com/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>MuhForum</h1> <br> <p>I spent a lot of my youth in various forums, and I thought I should make my own. This is currently a work in progress. <br> It is made with Nodejs, express-handlebars and I am using UI kit for a front end framework. Mongo is the database and each post and all the replys are all stored in one collection with no seperate relations in the DB.<br> Future plans include; a voting system that will tie into the post position on the board. <br> Currently this site is hosted on Heroku which gets put to 'sleep'. So please give it a moment to spin up when clicked.<br> <a href='https://github.com/shyaboi/forum'>Github</a> <br><a href='https://hidden-tundra-72153.herokuapp.com/'>Deployed Site</a></div>";
   }
   function jQ() {
     var elem = document.getElementById("bigboi");
