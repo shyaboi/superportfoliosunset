@@ -165,7 +165,7 @@ function Main() {
           </a>
 
           <a
-            href="https://hidden-tundra-72153.herokuapp.com/forum"
+            href="http://54.183.141.45:5000/forum"
             id="forum"
             class="card border-gradient border-gradient-purple"
             onMouseOver={forum}
