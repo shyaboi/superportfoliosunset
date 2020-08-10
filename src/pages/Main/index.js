@@ -33,7 +33,7 @@ function Main() {
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server are hosted on a google cloud Linux VM en1 machine, and tunneled with ngrok. <br> <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='https://donus.ngrok.io/'>Deployed Site</a></p></div>";
+      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server was hosted on a google cloud Linux VM en1 machine, but has been fully migrated to AWS, and tunneled with ngrok. <br> <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='https://donus.ngrok.io/'>Deployed Site</a></p></div>";
   }
   function npop() {
     var elem = document.getElementById("bigboi");
@@ -55,10 +55,10 @@ function Main() {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>Repo Name Generator</h1> <br> <p>This applicatioin randomly generates a repo name from 2 given name arrays. I plan on making different repo version settings, i.e. create-react-app wants repos to be all lowercase. I also plan on moving the name bank to a database and letting users add their own names. I have also made an electron app version that can be installed and executed on mac, osx and linux. <br> <a href='https://github.com/shyaboi/TubularRepoNameGeneratorSoldier'>Github</a><br> <a href='https://github.com/shyaboi/tubularreponamegeneratorsoldierelectron'> Electron app version </a> <br><a href='https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/'>Deployed Site</a></div>";
   }
-  function workWork() {
+  function forum() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>8 Hour Workday Scheduler</h1> <br> <p>This is a simple sceduler that will save your notes for each hour of your work day. It will save the text in the hour to the internal storage in your browser, so currently to clear your schedule, clear your browsers internal storage. <br> <a href='https://github.com/shyaboi/glowingScheduler'>Github</a> <br><a href='https://shyaboi.github.io/glowingScheduler'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>MuhForum</h1> <br> <p>This is a forum site. It is currently a work in progress. It is made with Nodejs, express-handlebars and I am using UI kit for a front end framework. Mongo is the database and each post and all the replys are all stored in one collection with no seperate relations in the DB. Future plans include; a voting system that will tie into the post position on the board. <br> <a href='https://github.com/shyaboi/forum'>Github</a> <br><a href='https://hidden-tundra-72153.herokuapp.com/'>Deployed Site</a></div>";
   }
   function jQ() {
     var elem = document.getElementById("bigboi");
@@ -165,12 +165,12 @@ function Main() {
           </a>
 
           <a
-            href="https://shyaboi.github.io/glowingScheduler"
-            id="glow"
+            href="https://hidden-tundra-72153.herokuapp.com/forum"
+            id="forum"
             class="card border-gradient border-gradient-purple"
-            onMouseOver={workWork}
+            onMouseOver={forum}
           >
-            <p id="desc">8 Hour scheduler</p>
+            <p id="desc">MuhForum</p>
           </a>
 
           <a
