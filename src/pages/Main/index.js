@@ -32,8 +32,10 @@ function Main() {
   }
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
+    elem.classList.add("fade");
     elem.innerHTML =
-      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server was hosted on a google cloud Linux VM en1 machine, but has been fully migrated to AWS, and tunneled with ngrok. <br> <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='https://donus.ngrok.io/'>Deployed Site</a></p></div>";
+      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server was hosted on a google cloud Linux VM en1 machine, but has been fully migrated to AWS, and is hosted on the same instance as MuhForums...soon to both be the Dingus Crew Community <br> <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='https://donus.ngrok.io/'>Deployed Site</a></p></div>";
+
   }
   function npop() {
     var elem = document.getElementById("bigboi");
@@ -58,7 +60,7 @@ function Main() {
   function forum() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>MuhForum</h1> <br> <p>I spent a lot of my youth in various forums, and I thought I should make my own. This is currently a work in progress. <br> It is made with Nodejs, express-handlebars and I am using UI kit for a front end framework. Mongo is the database and each post and all the replys are all stored in one collection with no seperate relations in the DB.<br> Future plans include; a voting system that will tie into the post position on the board. <br> This site was hosted on Heroku but I have migrated it to AWS. <br> <a href='https://github.com/shyaboi/forum'>Github</a> <br><a href='http://54.183.141.45:5000/forum'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>MuhForum</h1> <br> <p>I spent a lot of my youth in various forums, and I thought I should make my own. This is currently a work in progress. <br> It is made with Nodejs, express-handlebars and I am using UI kit for a front end framework. Mongo is the database and each post and all the replys are all stored in one collection with no seperate relations in the DB.<br> Future plans include; a voting system that will tie into the post position on the board. <br> This site was hosted on Heroku but I have migrated it to AWS. This and MuhWalls 2 are hosted on the same instance...soon to both be the Dingus Crew Community <br> <a href='https://github.com/shyaboi/forum'>Github</a> <br><a href='http://54.183.141.45:5000/forum'>Deployed Site</a></div>";
   }
   function jQ() {
     var elem = document.getElementById("bigboi");
@@ -95,7 +97,7 @@ function Main() {
           </a>
 
           <a
-            href="http://donus.ngrok.io/"
+            href="http://dinguscrew.com:8080"
             id="walls2"
             className="card border-gradient border-gradient-purple"
             onMouseOver={muhWalls2}
@@ -165,7 +167,7 @@ function Main() {
           </a>
 
           <a
-            href="http://54.183.141.45:5000/forum"
+            href="http://dinguscrew.com:5000/forum"
             id="forum"
             class="card border-gradient border-gradient-purple"
             onMouseOver={forum}

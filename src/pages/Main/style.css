@@ -290,9 +290,28 @@ background: #000;
     font-family: "Roboto", sans-serif;
     display: inline-block;
     font-size: 17px;
+    transition: 3s ease 0s;
   }
   @media screen and (max-width: 768px) {
     #newMidDiv {
         font-size: 22px;
       }
     }
+
+
+ 
+  .fade { 
+    animation: fadein 1s;
+  
+  }
+  @keyframes fadein {
+    from {
+      opacity:1;
+    }
+    50% {
+      opacity: 0;
+    }
+    to {
+      opacity:1;
+    }
+  }
