@@ -114,7 +114,7 @@ function Main() {
           </a>
 
           <a
-            href="https://npopio.herokuapp.com/"
+            href="http://npop.io"
             id="npop"
             className="card border-gradient border-gradient-purple"
             onMouseOver={npop}
