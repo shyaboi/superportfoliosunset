@@ -25,10 +25,10 @@ function Main() {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story. It is currently still a work in progress. All music and artwork used in this project was created by myself. <br> <a href='https://github.com/shyaboi/mailpoem'>Github React Version</a> <br><a href='https://github.com/shyaboi/mailpoemdumb'>Github HTML Version</a> <br><a href='https://mailpoem.com/'>Deployed Site React Version</a> <br><a href='https://shyaboi.github.io/mailpoemdumb/'>Deployed Site HTML Version</a></p></div> ";
   }
-  function snake() {
+  function flagAPI() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Canvas Snake</h1> <br> <p>This is a simple snake game made with HTML canvas and some javascript. </p><br> The game currently has no loss condition, but I am implementing that and some poison fruits that the snake will have to avoid. If you play long enough, the poison will start to appear. <br> <a href='https://github.com/shyaboi/canvasnake'>Github</a> <br><a href='https://shyaboi.github.io/canvasnake/'>Deployed Site</a></p></div>";
+    "<div id='newMidDiv'><h1>Flag API</h1> <br> <p>This is a flag API Currently I have only US regions, but plan to add more gradually. I have a documentation page for interactig with the API which can be found below. This API is made with NodeJS, and Express <br> <a href='https://github.com/shyaboi/flagapi'>Github</a> <br><a href='https://flagapi.ngrok.io/'>Deployed Site</a><br><a href='https://flagapi.ngrok.io/docs'>Documentation</a></p></div>";
   }
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
@@ -113,15 +113,16 @@ function Main() {
             <p id="desc">MuhWalls</p>
           </a>
 
-          <a
-            href="http://npop.io"
-            id="npop"
-            className="card border-gradient border-gradient-purple"
-            onMouseOver={npop}
-          >
-            <p id="desc">nPoP</p>
-          </a>
 
+          <a
+            href="http://dinguscrew.com:5000/forum"
+            id="forum"
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={forum}
+          >
+            <p id="desc">MuhForum</p>
+          </a>
+         
           <a
             href="https://shyaboi.github.io/wordapp/"
             id="word"
@@ -140,14 +141,7 @@ function Main() {
             <p id="desc">grocerEASE</p>
           </a>
 
-          <a
-            href="https://shyaboi.github.io/canvasnake/"
-            id="snake"
-            className="card border-gradient border-gradient-purple"
-            onMouseOver={snake}
-          >
-            <p id="desc">Canvas Snake</p>
-          </a>
+         
           <a
             href="https://mailpoem.com"
             id="mp"
@@ -156,7 +150,26 @@ function Main() {
           >
             <p id="desc">MaiLPoem</p>
           </a>
+          <a
+            href="https://flagapi.ngrok.io/"
+            id="flagAPI"
+            className="card border-gradient border-gradient-purple"
+            onMouseOver={flagAPI}
+          >
+            <p id="desc">Flag API</p>
+          </a>
+          
 
+          <a
+            href="http://npop.io"
+            id="npop"
+            className="card border-gradient border-gradient-purple"
+            onMouseOver={npop}
+          >
+            <p id="desc">nPoP</p>
+          </a>
+
+          
           <a
             href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"
             id="nameGen"
@@ -166,14 +179,7 @@ function Main() {
             <p id="desc">Repo Name Generator</p>
           </a>
 
-          <a
-            href="http://dinguscrew.com:5000/forum"
-            id="forum"
-            class="card border-gradient border-gradient-purple"
-            onMouseOver={forum}
-          >
-            <p id="desc">MuhForum</p>
-          </a>
+    
 
           <a
             href="https://shyaboi.github.io/DawnOfWeather/"
