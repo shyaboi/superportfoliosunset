@@ -290,7 +290,7 @@ background: #000;
     font-family: "Roboto", sans-serif;
     display: inline-block;
     font-size: 17px;
-    transition: 3s ease 0s;
+    /* transition: 3s ease 0s; */
   }
   @media screen and (max-width: 768px) {
     #newMidDiv {

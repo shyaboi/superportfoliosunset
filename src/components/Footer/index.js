@@ -5,6 +5,7 @@ import github from "../../imgs/github.png";
 import linkedIn from "../../imgs/linked.png";
 import youTube from "../../imgs/youtube.png";
 import adobe from "../../imgs/adobe.png";
+import cv from "../../imgs/cv.png";
 
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -16,6 +17,8 @@ function Footer() {
     <a href="https://www.linkedin.com/in/ian-sears-5931734a" ><img src={linkedIn} id='linkedIn'/></a>
     <a href="https://www.youtube.com/channel/UCkTSBEk8wsKIpy-MzRoJroA?view_as=subscriber" ><img src={youTube} id='youTube'/></a>
     <a href="https://stock.adobe.com/contributor/209064146/Ian" ><img src={adobe} id='adobe'/></a>
+    <a href="https://docs.google.com/document/d/1RnXMgfoLe12ix2YpVzLk9Olue4SjtuMb331qsIks14Y/edit?usp=sharing" ><img src={cv} id='cv'/></a>
+
 
 </div>
   );
