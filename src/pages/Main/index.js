@@ -18,7 +18,7 @@ function Main() {
   function ssAppDescription() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment. This application has routes made with node. A front end delivered by react, and mongo database. Oauth is used for login authentication.</p>(this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up)<br> <a href='https://github.com/justinkellogg89/miniature-disco'>Github</a> <br><a href='https://strategy-scope.herokuapp.com/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment. This application has routes made with node. A front end delivered by react, and mongo database. Oauth is used for login authentication.</p> This app is currently hosted on heroku, whos servers get put to 'sleep', so sometimes I have a  <a href='https://github.com/shyaboi/wonkycron'>homeade Cron</a> To keep the instance alive. <br> <a href='https://github.com/justinkellogg89/miniature-disco'>Github</a> <br><a href='https://strategy-scope.herokuapp.com/'>Deployed Site</a></div>";
   }
   function mpAppDescription() {
     var elem = document.getElementById("bigboi");
@@ -50,7 +50,7 @@ function Main() {
   function grocerEase() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application is meant to bundle all your desired recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application was a group project in my bootcamp. The MVP in this app is to bundle all your desired recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes. We used the UI-Kit framework and JQuery for the DOM manipulation. We used Axios to access the API at <a href='https://www.themealdb.com/'>The Meal DB </a>which has a small database of recepies.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
   }
   function nameGen() {
     var elem = document.getElementById("bigboi");
@@ -71,7 +71,7 @@ function Main() {
   function pokemon() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Pokemon</h1> <br> <p>This application you can add pokemon to a mySQL database, and them have them all printed on a pokedex screen. There is another fight screen availible where you choose two pokemon by number and one will attack until the other 'dies'</p> (this app is currently hosted on heroku, whos servers get put to 'sleep' so give it a minuet to load up) <br> <a href='https://github.com/shyaboi/Dope-Pokemon-Dopeness'>Github</a> <br><a href='https://glacial-beyond-53964.herokuapp.com/pokedex'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Pokemon</h1> <br> <p>>This application was a group project in my bootcamp. In this app, you can add pokemon to a mySQL database, and them have them all printed on a pokedex screen. There is another fight screen availible where you choose two pokemon by number and one will attack until the other 'dies'</p>  This site was made with express and express handlesbars, with a node server accessing a mySQL DB with sequalize.(this app is currently hosted on heroku, whos servers get put to 'sleep', so sometimes I have a <a href='https://github.com/shyaboi/wonkycron'>homeade Cron</a> To keep the instance alive) <br> <a href='https://github.com/shyaboi/Dope-Pokemon-Dopeness'>Github</a> <br><a href='https://glacial-beyond-53964.herokuapp.com/pokedex'>Deployed Site</a></div>";
   }
   function muhWalls() {
     var elem = document.getElementById("bigboi");

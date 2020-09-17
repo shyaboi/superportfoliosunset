@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 // import neckbard from '../../imgs/neckbard.jpg'
 
+
 import construct from '../../imgs/construct.jpg'
 import chat from '../../imgs/chat.jpg'
 
@@ -26,7 +27,7 @@ function CLI() {
                                 alt="under construction"/>
                     </div>
 
-                   
+
                 </section>
 
             </header>
