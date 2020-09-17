@@ -7,11 +7,11 @@
   position: absolute;
   top:50%;
   background-image: url(../../imgs/rightarrow.png);
-  opacity: 35%;
+  /* opacity: 35%; */
   z-index: 0;
 }
 #CLI:hover{
-  opacity: 99%;
+  /* opacity: 99%; */
 z-index: 22;
 }
 #CLI{
@@ -56,13 +56,13 @@ z-index: 22;
  border-radius: 10px;
 }
 
-#CLI:active {
+/* #CLI:active {
 
-}
+} */
 
-#CLI:active:after {
+/* #CLI:active:after {
 
-}
+} */
 
 #CLI:hover:before {
  opacity: 1;

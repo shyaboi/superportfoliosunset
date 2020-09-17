@@ -73,10 +73,10 @@ function Main() {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>Pokemon</h1> <br> <p>>This application was a group project in my bootcamp. In this app, you can add pokemon to a mySQL database, and them have them all printed on a pokedex screen. There is another fight screen availible where you choose two pokemon by number and one will attack until the other 'dies'</p>  This site was made with express and express handlesbars, with a node server accessing a mySQL DB with sequalize.(this app is currently hosted on heroku, whos servers get put to 'sleep', so sometimes I have a <a href='https://github.com/shyaboi/wonkycron'>homeade Cron</a> To keep the instance alive) <br> <a href='https://github.com/shyaboi/Dope-Pokemon-Dopeness'>Github</a> <br><a href='https://glacial-beyond-53964.herokuapp.com/pokedex'>Deployed Site</a></div>";
   }
-  function muhWalls() {
+  function facade() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>MuhWalls</h1><p>I always spent tons of time on wallpaper websites picking hundereds of wallpapers to add to my wallpaper folder. Now i have finally made 2 of my own wallpaper sites(2 is the best).<br> This first one was made with react and node. I had the ingest server on a raspberry pi and hosted the front end on heroku. <br> Currently the upload server is offline. I revamped and reused a lot of the original backed to build Muhwalls 2. <br> <a href='https://github.com/shyaboi/wallpapers'>Github</a> <br><a href='https://dinguswallpapermassiv.herokuapp.com/'>Deployed Site</a></p></div>  ";
+    "<div id='newMidDiv'><h1>aFacade</h1><p>This is an odd project. I started building some different kinds of web scrapers to get different kinds of data from different websites. One<a href='https://github.com/shyaboi/sonOfDumpski'> here </a>that downloads all pictures from a site to a unique folder name. Then I became fixated on making temporary copies of sites.<br> aFacade is a Node server, that goes to a given URL, tries to get all the data it can, builds a self-destructing, hosted, HTML page that is a facade of the original website(not fully functional). This could be usefule if you only need to see a page that isn't loading for you, or a site is blocked from a firewall. For the future; I want to make it more comptible, as some sites facade copies are not perfect, and get some IP proxying.<br> This was made with Node.js, and Bulma, and a sprinkle of JQuery<br> <a href='https://github.com/shyaboi/wallpapers'>Github</a> <br><a href='https://dinguswallpapermassiv.herokuapp.com/'>Deployed Site</a></p></div>  ";
   }
   function originalDiv() {
     var elem = document.getElementById("bigboi");
@@ -106,11 +106,11 @@ function Main() {
           </a>
           <a
             href="https://dinguswallpapermassiv.herokuapp.com/"
-            id="walls"
+            id="facade"
             className="card border-gradient border-gradient-purple"
-            onMouseOver={muhWalls}
+            onMouseOver={facade}
           >
-            <p id="desc">MuhWalls</p>
+            <p id="desc">aFacade</p>
           </a>
 
 
