@@ -37,7 +37,7 @@ function App() {
                     : "nav-link"
                 }
               >⫷
-              WIP Projects
+              Mor Projects
               </Link>
             </li>
 <Footer />
