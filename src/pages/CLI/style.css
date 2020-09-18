@@ -84,13 +84,13 @@ z-index: 22;
   background: url("../../imgs/nodobe.png");
 background-size: contain;
 }
-#mp{
-  background: url("../../imgs/mpldl.png");
+#walls{
+  background: url("../../imgs/walls.png");
 background-size: cover;
 }
-#flagAPI{
-  background: url("../../imgs/flagAPI.png");
-  background-size: cover;
+#ppKiller{
+  background: url("../../imgs/ppkiller.png");
+  background-size: contain;
 }
 
 #npop{

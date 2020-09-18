@@ -12,11 +12,18 @@ const CLI = ()=> {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>NoDobe</h1> <br> <p>Nodobe is a node application that can be spun up with only a executable binary on Windows so far, but will work on Mac and Linux in shell.</p>This program once opened, will find all Adobe CC related process and kill them. I use a lot of photoshop and other adobe tools, but when you exit, there is still many process running from Adobe, so I made NoDobe.<br> <a href='https://github.com/shyaboi/nodobe'>Github</a></div>";
   }
-  function mpAppDescription() {
+  const ppKiller = ()=> {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story. It is currently still a work in progress. All music and artwork used in this project was created by myself. <br> <a href='https://github.com/shyaboi/mailpoem'>Github React Version</a> <br><a href='https://github.com/shyaboi/mailpoemdumb'>Github HTML Version</a> <br><a href='https://mailpoem.com/'>Deployed Site React Version</a> <br><a href='https://shyaboi.github.io/mailpoemdumb/'>Deployed Site HTML Version</a></p></div> ";
+    "<div id='newMidDiv'><h1>ppKiller</h1> <br> <p>Python Process Killer is a Python/Tkinter GUI application that will kill any given named process, and it also has auto killer buttons for Adobe, Microsoft, and Google process. I found these to be my biggest resource hogs on my computer. This is a kind of evolution of NoDobe. I was running into some interactions with the OS that were much easier to accomplish and scale with Python.<br> <a href='https://github.com/shyaboi/nodobe'>Github</a></div>";
   }
+  function muhWalls() {
+    var elem = document.getElementById("bigboi");
+    elem.innerHTML =
+    "<div id='newMidDiv'><h1>MuhWalls</h1><p>I always spent tons of time on wallpaper websites picking hundereds of wallpapers to add to my wallpaper folder. Now i have finally made 2 of my own wallpaper sites(2 is the best).<br> This first one was made with react and node. I had the ingest server on a raspberry pi and hosted the front end on heroku. <br> Currently the upload server is offline. I revamped and reused a lot of the original backed to build Muhwalls 2. <br> <a href='https://github.com/shyaboi/wallpapers'>Github</a> <br><a href='https://dinguswallpapermassiv.herokuapp.com/'>Deployed Site</a></p></div>  ";
+  }
+
+                 
   function flagAPI() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
@@ -72,13 +79,22 @@ const CLI = ()=> {
   }
   function originalDiv() {
     var elem = document.getElementById("bigboi");
-    elem.innerHTML = `<div id="newMidDiv"><h1>Ian Sears</h1> <h3 >Full Stack Web Computer Man</h3> <img src="https://i.ibb.co/JdPvygR/me.png" alt="alternatetext"></div>`;
+    elem.innerHTML = `<div id="newMidDiv"><h1>Ian Sears</h1> <h3 >Full Stack Web Computer Man</h3> <img src="https://i.ibb.co/ngjHncJ/construct.jpg" alt="alternatetext"></div>`;
   }
   
   return (
     <div className="App">
       <header className="App-header" onMouseLeave={originalDiv}>
         <section class="animated-grid">
+         
+        <a
+            href="https://dinguswallpapermassiv.herokuapp.com/"
+            id="walls"
+            className="card border-gradient border-gradient-purple"
+            onMouseOver={muhWalls}
+          >
+            <p id="desc">MuhWalls</p>
+          </a>
           <a
             href="https://github.com/shyaboi/nodobe"
             className="card border-gradient border-gradient-purple"
@@ -89,13 +105,15 @@ const CLI = ()=> {
           </a>
 
           <a
-            href="http://dinguscrew.com:8080"
-            id="walls2"
+            href="https://github.com/shyaboi/ppkiller"
             className="card border-gradient border-gradient-purple"
-            onMouseOver={muhWalls2}
+            id="ppKiller"
+            onMouseOver={ppKiller}
           >
-            <p id="desc">MuhWalls 2</p>
+            <p id="desc">ppKiller</p>
           </a>
+
+        
           <a
             href="http://afaca.de/"
             id="facade"
@@ -133,15 +151,6 @@ const CLI = ()=> {
             <p id="desc">grocerEASE</p>
           </a>
 
-         
-          <a
-            href="https://mailpoem.com"
-            id="mp"
-            className="card"
-            onMouseOver={mpAppDescription}
-          >
-            <p id="desc">MaiLPoem</p>
-          </a>
           <a
             href="https://flagapi.ngrok.io/"
             id="flagAPI"
