@@ -78,3 +78,62 @@ z-index: 22;
  top: 0;
  border-radius: 10px;
 }
+
+
+#noDobe{
+  background: url("../../imgs/nodobe.png");
+background-size: contain;
+}
+#mp{
+  background: url("../../imgs/mpldl.png");
+background-size: cover;
+}
+#flagAPI{
+  background: url("../../imgs/flagAPI.png");
+  background-size: cover;
+}
+
+#npop{
+  background: url("../../imgs/npop.png");
+background-size: cover;
+}
+
+#word{
+  background: url("../../imgs/word.png");
+  background-size: cover;
+}
+
+#walls2{
+  background: url("../../imgs/walls2.png");
+  background-size: cover;
+    
+  }  
+
+#nameGen{
+  background: url("../../imgs/namegen.png");
+  background-size: cover;
+}
+
+#forum{
+  background: url("../../imgs/forum.png");
+  background-size: cover;
+}
+
+#jQ{
+  background: url("../../imgs/weath.png");
+  background-size: cover;
+}
+
+#pokemon{
+  background: url("../../imgs/poke.png");
+  background-size: cover;
+}
+#facade{
+  background: url("../../imgs/facade.png");
+  background-size: cover;
+}
+
+#grocerEase{
+  background: url("../../imgs/groce.png");
+background-size: cover;
+}
