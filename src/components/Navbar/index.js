@@ -36,12 +36,12 @@ function Navbar() {
 
             {/* <li
               className="nav-item"
-              id="CLI"
+              id="Mor"
               style={{ textDecoration: "none" }}
             >
               <Link
                 style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/CLI"
+                to="/Mor"
                 className={
                   window.location.pathname === "/"
                     ? "nav-link active"

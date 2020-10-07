@@ -6,11 +6,11 @@ import Video from "../../components/video";
 
 import construct from '../../imgs/construct.jpg'
 import chat from '../../imgs/chat.jpg'
-const CLI = ()=> {
+const Mor = ()=> {
     const noDobe = ()=> {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>NoDobe</h1> <br> <p>Nodobe is a node application that can be spun up with only a executable binary on Windows so far, but will work on Mac and Linux in shell.</p>This program once opened, will find all Adobe CC related process and kill them. I use a lot of photoshop and other adobe tools, but when you exit, there is still many process running from Adobe, so I made NoDobe.<br> <a href='https://github.com/shyaboi/nodobe'>Github</a></div>";
+    "<div id='newMidDiv'><h1>NoDobe</h1> <br> <p>Nodobe is a node application that can be spun up with only a executable binary on Windows so far, but will work on Mac and Linux in shell.</p>This program once opened, will find all Adobe CC related process and kill them. I use a lot of photoshop and other adobe tools, but when you exit, there is still many process running from Adobe, so I made NoDobe. Made with Node.js and Electron<br> <a href='https://github.com/shyaboi/nodobe'>Github</a></div>";
   }
   const ppKiller = ()=> {
     var elem = document.getElementById("bigboi");
@@ -24,10 +24,10 @@ const CLI = ()=> {
   }
 
                  
-  function flagAPI() {
+  function sorting() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Flag API</h1> <br> <p>This is a flag API Currently I have only US regions, but plan to add more gradually. I have a documentation page for interactig with the API which can be found below. This API is made with NodeJS, and Express. It is currently being hosted on an Oracle Cloud VM instance and tunneled with ngrok. Monitored by PM2.<br> <a href='https://github.com/shyaboi/flagapi'>Github</a> <br><a href='https://flagapi.ngrok.io/'>Deployed Site</a><br><a href='https://flagapi.ngrok.io/docs'>Documentation</a></p></div>";
+    "<div id='newMidDiv'><h1>Sorting API</h1> <br> <p>This is a sorting algorithm API. Currently there are 3 routes. This application was built with Python, and the flask framework. It is currently being hosted on an Heroku<br> <a href='https://github.com/shyaboi/muhsortingalgos'>Github</a> <br><a href='https://sortpy.herokuapp.com/'>Deployed Site</a><br><a href='https://sortpy.herokuapp.com/api/docs'>Documentation</a></p></div>";
   }
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
@@ -152,12 +152,12 @@ const CLI = ()=> {
           </a>
 
           <a
-            href="https://flagapi.ngrok.io/"
-            id="flagAPI"
+            href="https://sortpy.herokuapp.com/"
+            id="sorting"
             className="card border-gradient border-gradient-purple"
-            onMouseOver={flagAPI}
+            onMouseOver={sorting}
           >
-            <p id="desc">Flag API</p>
+            <p id="desc">Sorting Algorithm API</p>
           </a>
           
 
@@ -214,4 +214,4 @@ const CLI = ()=> {
   );
 }
 
-export default CLI;
+export default Mor;

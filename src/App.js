@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link  } from "react-router-dom";
 import Contact from './pages/Contact'
 import Main from './pages/Main';
 import Footer from './components/Footer';
-import CLI from './pages/CLI';
+import Mor from './pages/Mor';
 
 
 // import ha from './imgs/ha.png'
@@ -22,15 +22,15 @@ function App() {
   <Route exact path="/" component={Main} />
 
  <Route exact path="/Contact" component={Contact} />
- <Route exact path="/CLI" component={CLI} />
+ <Route exact path="/Mor" component={Mor} />
  <li
               className="nav-item"
-              id="CLI"
+              id="Mor"
               style={{ textDecoration: "none" }}
             >
               <Link
                 style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/CLI"
+                to="/Mor"
                 className={
                   window.location.pathname === "/"
                     ? "nav-link active"

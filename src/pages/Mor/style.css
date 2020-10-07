@@ -3,18 +3,18 @@
   height: 40vh;
 }
 
-#CLI{
+#Mor{
   position: absolute;
   top:50%;
   background-image: url(../../imgs/rightarrow.png);
   /* opacity: 35%; */
   z-index: 0;
 }
-#CLI:hover{
+#Mor:hover{
   /* opacity: 99%; */
 z-index: 22;
 }
-#CLI{
+#Mor{
   text-align: center;
   margin-left: 3vh;
  display:inline-block;
@@ -28,7 +28,7 @@ z-index: 22;
  cursor: pointer;
  border-radius: 5px;
 }
-#CLI:before {
+#Mor:before {
  content: "";
  background: linear-gradient(
    45deg,
@@ -56,19 +56,19 @@ z-index: 22;
  border-radius: 10px;
 }
 
-/* #CLI:active {
+/* #Mor:active {
 
 } */
 
-/* #CLI:active:after {
+/* #Mor:active:after {
 
 } */
 
-#CLI:hover:before {
+#Mor:hover:before {
  opacity: 1;
 }
 
-#CLI:after {
+#Mor:after {
  z-index: -1;
  content: "";
  position: absolute;
@@ -114,8 +114,8 @@ background-size: cover;
   background-size: cover;
 }
 
-#forum{
-  background: url("../../imgs/forum.png");
+#sorting{
+  background: url("../../imgs/sorting.png");
   background-size: cover;
 }
 
