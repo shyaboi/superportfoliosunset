@@ -151,7 +151,7 @@ function Main() {
             <p id="desc">MaiLPoem</p>
           </a>
           <a
-            href="https://flagapi.ngrok.io/"
+            href="https://openflags.net/"
             id="flagAPI"
             className="card border-gradient border-gradient-purple"
             onMouseOver={flagAPI}
