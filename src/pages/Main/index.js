@@ -28,7 +28,7 @@ function Main() {
   function flagAPI() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Flag API</h1> <br> <p>This is a flag API Currently I have only US regions, but plan to add more gradually. I have a documentation page for interactig with the API which can be found below. This API is made with NodeJS, and Express. It is currently being hosted on an Oracle Cloud VM instance and tunneled with ngrok. Monitored by PM2.<br> <a href='https://github.com/shyaboi/flagapi'>Github</a> <br><a href='https://flagapi.ngrok.io/'>Deployed Site</a><br><a href='https://flagapi.ngrok.io/docs'>Documentation</a></p></div>";
+    "<div id='newMidDiv'><h1>Flag API</h1> <br> <p>This is a flag API Currently I have only US regions, but plan to add more gradually. I have a documentation page for interactig with the API which can be found below. This API is made with NodeJS, and Express. It is currently being hosted on an Oracle Cloud VM instance and tunneled with ngrok. Monitored by PM2.<br> <a href='https://github.com/shyaboi/flagapi'>Github</a> <br><a href='https://openflags.net/'>Deployed Site</a><br><a href='https://openflags.net/docs/'>Documentation</a></p></div>";
   }
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
