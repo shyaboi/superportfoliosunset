@@ -20,10 +20,10 @@ function Main() {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>Stratagey Scope</h1> <br> <p>Stratagy Scope was a team colaboration with myself and other bootcamp members to make a slack style app, focused on project managment. This application has routes made with node. A front end delivered by react, and mongo database. Oauth is used for login authentication.</p> This app is currently hosted on heroku, whos servers get put to 'sleep', so sometimes I have a  <a href='https://github.com/shyaboi/wonkycron'>homeade Cron</a> To keep the instance alive. <br> <a href='https://github.com/justinkellogg89/miniature-disco'>Github</a> <br><a href='https://strategy-scope.herokuapp.com/'>Deployed Site</a></div>";
   }
-  function mpAppDescription() {
+  function getwoman() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>MaiL Poem</h1> <br> <p>MaiL Poem is an art project ment to blend music loops with ambient sounds and a vibrant story. It is currently still a work in progress. All music and artwork used in this project was created by myself. <br> <a href='https://github.com/shyaboi/mailpoem'>Github React Version</a> <br><a href='https://github.com/shyaboi/mailpoemdumb'>Github HTML Version</a> <br><a href='https://mailpoem.com/'>Deployed Site React Version</a> <br><a href='https://shyaboi.github.io/mailpoemdumb/'>Deployed Site HTML Version</a></p></div> ";
+    "<div id='newMidDiv'><h1>Getwoman</h1> <br> <p>Getwoman is a 'store brand' Postman. It is built with a React/Bootstrap front end (hosted on github pages) does a post request to a Node server.(that is currently hosted on Heroku, so give the 1st get/post a few seconds to return data.)<br> That Node server then does a http/s get/post with the information given on the react page. It is a work in progress and there is a lot of error handleing that needs to be done with different request/return types. Currently the Get request works well with APIs tested with so far.<br> <a href='https://github.com/shyaboi/pstmn'>Github</a><br><a href='https://shyaboi.github.io/pstmn/'>Deployed</a> </p></div> ";
   }
   function flagAPI() {
     var elem = document.getElementById("bigboi");
@@ -76,7 +76,7 @@ function Main() {
   function facade() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>aFacade</h1><p>This is an odd project. I started building some different kinds of web scrapers to get different kinds of data from different websites. One<a href='https://github.com/shyaboi/sonOfDumpski'> here </a>that downloads all pictures from a site to a unique folder name. Then I became fixated on making temporary copies of sites.<br> aFacade is a Node server, that goes to a given URL, tries to get all the data it can, builds a self-destructing, hosted, HTML page that is a facade of the original website(not fully functional). This could be useful if you only need to see a page that isn't loading for you, or a site is blocked from a firewall. For the future; I want to make it more comptible, as some sites facade copies are not perfect, and get some IP proxying.<br> This was made with Node.js, and Bulma, and a sprinkle of JQuery Hosted on Azure VM<br><a href='http://afaca.de/'>aFaca.de</a></p></div>  ";
+    "<div id='newMidDiv'><h1>aFacade</h1><p>This is an odd project. I started building some different kinds of web scrapers to get different kinds of data from different websites. One<a href='https://github.com/shyaboi/sonOfDumpski'> here </a>that downloads all pictures from a site to a unique folder name. Then I became fixated on making temporary copies of sites.<br> aFacade is a Node server, that goes to a given URL, tries to get all the data it can, builds a self-destructing, hosted, HTML page that is a facade of the original website(not fully functional). This could be useful if you only need to see a page that isn't loading for you, or a site is blocked from a firewall. For the future; I want to make it more comptible, as some sites facade copies are not perfect, and get some IP proxying.<br> This was made with Node.js, and Bulma, and a sprinkle of JQuery. Just ran out of credits on Azure, so it is hosted on Heroku for now.<br><a href='https://daughterdumpski.herokuapp.com/'>aFaca.de</a></p></div>  ";
   }
   function originalDiv() {
     var elem = document.getElementById("bigboi");
@@ -105,7 +105,15 @@ function Main() {
             <p id="desc">MuhWalls 2</p>
           </a>
           <a
-            href="http://afaca.de/"
+            href="https://openflags.net/"
+            id="flagAPI"
+            className="card border-gradient border-gradient-purple"
+            onMouseOver={flagAPI}
+          >
+            <p id="desc">Open Flags API</p>
+          </a>
+          <a
+            href="https://daughterdumpski.herokuapp.com/"
             id="facade"
             className="card border-gradient border-gradient-purple"
             onMouseOver={facade}
@@ -143,23 +151,14 @@ function Main() {
 
          
           <a
-            href="https://mailpoem.com"
-            id="mp"
+            href="https://shyaboi.github.io/pstmn/"
+            id="getwoman"
             className="card"
-            onMouseOver={mpAppDescription}
+            onMouseOver={getwoman}
           >
-            <p id="desc">MaiLPoem</p>
-          </a>
-          <a
-            href="https://openflags.net/"
-            id="flagAPI"
-            className="card border-gradient border-gradient-purple"
-            onMouseOver={flagAPI}
-          >
-            <p id="desc">Open Flags API</p>
+            <p id="desc">Getwoman</p>
           </a>
           
-
           <a
             href="http://npop.io"
             id="npop"

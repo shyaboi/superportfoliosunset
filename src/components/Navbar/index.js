@@ -34,23 +34,6 @@ function Navbar() {
               </Link>
             </li>
 
-            {/* <li
-              className="nav-item"
-              id="Mor"
-              style={{ textDecoration: "none" }}
-            >
-              <Link
-                style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/Mor"
-                className={
-                  window.location.pathname === "/"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-              >
-                Backend
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
