@@ -28,7 +28,7 @@ function Main() {
   function flagAPI() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Open Flags API</h1> <br> <p>This is a flag API Currently I have only US/Canada/ and Mexico regional flags/coat of arms, but plan to add more gradually. I have a documentation page for interactig with the API which can be found below. This API is made with NodeJS, and Express. I have recently migrated this site from an Oracle Cloud VM instance, tunneled with ngrok; to Google cloud compute instance. backed by a MongoDB. Monitored by PM2.<br> <a href='https://github.com/shyaboi/flagapi'>Github</a> <br><a href='https://openflags.net/'>Deployed Site</a><br><a href='https://openflags.net/docs/'>Documentation</a></p></div>";
+    "<div id='newMidDiv'><h1>Open Flags API</h1> <br> <p>This is a flag API Currently I have only US, Canada, Mexico, Germany, and England; regional flags/coat of arms, but plan to add more gradually. I have a documentation page for interactig with the API which can be found below. This API is made with NodeJS, and Express. I have recently Implimented a db caching system that improved http response times from 1~2seconds average to 150<ms. Hosted on a Google cloud compute instance. backed by a MongoDB. Monitored by PM2.<br> <a href='https://github.com/shyaboi/flagapi'>Github</a> <br><a href='https://openflags.net/'>Deployed Site</a><br><a href='https://openflags.net/docs/'>Documentation</a></p></div>";
   }
   function muhWalls2() {
     var elem = document.getElementById("bigboi");
@@ -112,6 +112,7 @@ function Main() {
           >
             <p id="desc">Open Flags API</p>
           </a>
+
           <a
             href="https://daughterdumpski.herokuapp.com/"
             id="facade"
