@@ -88,7 +88,7 @@ function Main() {
       <header className="App-header" onMouseLeave={originalDiv}>
         <section class="animated-grid">
         <a
-            href="https://github.com/shyaboi/namegen2"
+            href="https://shyaboi.github.io/namegen2/"
             id="nameGen"
             class="card border-gradient border-gradient-purple"
             onMouseOver={nameGen}
