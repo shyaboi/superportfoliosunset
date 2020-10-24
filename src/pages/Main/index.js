@@ -55,7 +55,7 @@ function Main() {
   function nameGen() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Repo Name Generator</h1> <br> <p>I am working on a new version of a name/word Generator that is an API with a Front end made with react that is fast and responsive with 400k+ words. <a href='https://github.com/shyaboi/namegen2'> Current Github link here </a><br>This applicatioin randomly generates a repo name from 2 given name arrays.  I also plan on moving the name bank to a database and letting users add their own names. I have also made an electron app version that can be installed and executed on mac, osx and linux. <br>  <a href='https://github.com/shyaboi/TubularRepoNameGeneratorSoldier'>Github</a><br> <a href='https://github.com/shyaboi/tubularreponamegeneratorsoldierelectron'> Electron app version </a> <br><a href='https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Name Generator 2: <br> Revenge of Words</h1> <br> <p>This is a new version of a name/word Generator that is an API with a Front end made with react that is fast and responsive with over 400,000 words. The API is made with Node.js and Express.js, and is currently hosted on Heroku. At the moment, the API has 7 endpoints, two that can support delivery of 100,000 or more random words in under 3 seconds to the user.  <br> Future development will be more endpoints, including more sorted ones such as; all words starting with letter 'b'<br> <a href='https://github.com/shyaboi/namegen2'> Github</a> <br><a href='https://shyaboi.github.io/namegen2/'>Deployed Site</a></div>";
   }
   function forum() {
     var elem = document.getElementById("bigboi");
@@ -87,14 +87,15 @@ function Main() {
     <div className="App">
       <header className="App-header" onMouseLeave={originalDiv}>
         <section class="animated-grid">
-          <a
-            href="https://strategy-scope.herokuapp.com/"
-            className="card border-gradient border-gradient-purple"
-            id="ss"
-            onMouseOver={ssAppDescription}
+        <a
+            href="https://github.com/shyaboi/namegen2"
+            id="nameGen"
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={nameGen}
           >
-            <p id="desc">Stratagey Scope</p>
+            <p id="desc">Name Generator 2</p>
           </a>
+         
 
           <a
             href="http://dinguscrew.com:8080"
@@ -171,12 +172,12 @@ function Main() {
 
           
           <a
-            href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"
-            id="nameGen"
-            class="card border-gradient border-gradient-purple"
-            onMouseOver={nameGen}
+            href="https://strategy-scope.herokuapp.com/"
+            className="card border-gradient border-gradient-purple"
+            id="ss"
+            onMouseOver={ssAppDescription}
           >
-            <p id="desc">Repo Name Generator</p>
+            <p id="desc">Stratagey Scope</p>
           </a>
 
     
