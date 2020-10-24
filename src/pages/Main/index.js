@@ -40,7 +40,7 @@ function Main() {
   function npop() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>nPoP</h1><p>This is nPoP. nPoP is a full service npm package with a starter package installer similar to 'create-react-app'.nPoP is an express wrapper built with node. Right now in nPoP(ex) form as it is currently built on-top of Express.js . nPoP is meant to be a super simple server instance for quick prototypes and front end developers wanting more serving options without configuration. Future features will be more customizations, including more dynamic rounting, adding a templating framwork, possible DB APIs. Working on a non express version as well. The demo site is hosted on AWS reverse proxy with NGINX. https with Certbot Monitored by PM2.<br> <a href='https://www.npmjs.com/package/npop'>npm</a> <br> <a href='https://github.com/shyaboi/nPoP'>Github </a> <br> <a href='http://npop.io'>Deployed Minimal Example nPoP Site</a>  </p></div>";
+    "<div id='newMidDiv'><h1>nPoP</h1><p>This is nPoP. nPoP is a full service npm package with a starter package installer similar to 'create-react-app'.nPoP is an express wrapper built with node. Right now in nPoP(ex) form as it is currently built on-top of Express.js . nPoP is meant to be a super simple server instance for quick prototypes and front end developers wanting more serving options without configuration. Future features will be more customizations, including more dynamic rounting, adding a templating framwork, possible DB APIs. Working on a non express version as well. The demo site is hosted on AWS reverse proxy with NGINX. SSL with Certbot, Monitored by PM2.<br> <a href='https://www.npmjs.com/package/npop'>npm</a> <br> <a href='https://github.com/shyaboi/nPoP'>Github </a> <br> <a href='http://npop.io'>Deployed Minimal Example nPoP Site</a>  </p></div>";
   }
   function word() {
     var elem = document.getElementById("bigboi");
@@ -55,7 +55,7 @@ function Main() {
   function nameGen() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Name Generator 2: <br> Revenge of Words</h1> <br> <p>This is a new version of a name/word Generator that is an API with a Front end made with react that is fast and responsive with over 400,000 words. The API is made with Node.js and Express.js, and is currently hosted on Heroku. At the moment, the API has 7 endpoints, two that can support delivery of 100,000 or more random words in under 3 seconds to the user.  <br> Future development will be more endpoints, including more sorted ones such as; all words starting with letter 'b'<br> <a href='https://github.com/shyaboi/namegen2'> Github</a> <br><a href='https://shyaboi.github.io/namegen2/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Name Generator 2: <br> Revenge of Words</h1> <br> <p>This is a new version of a name/word Generator that is an API with a Front end made with react that is fast and responsive with over 400,000 words. The API server is made with Node.js and Express.js, and is currently hosted on Heroku. At the moment, the API has 7 endpoints, two that can support delivery of 100,000 or more random words to the user.  <br> Future development will be more endpoints, including more sorted ones such as; all words starting with letter 'b'<br> <a href='https://github.com/shyaboi/namegen2'> Github</a> <br><a href='https://shyaboi.github.io/namegen2/'>Deployed Site</a></div>";
   }
   function forum() {
     var elem = document.getElementById("bigboi");
