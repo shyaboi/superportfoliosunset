@@ -55,7 +55,7 @@ function Main() {
   function nameGen() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Name Generator 2: <br> Revenge of Words</h1> <br> <p>This is a new version of a name/word Generator that is an API with a Front end made with react that is fast and responsive with over 400,000 words. The API server is made with Node.js and Express.js, and is currently hosted on Heroku. At the moment, the API has 7 endpoints, two that can support delivery of 100,000 or more random words to the user.  <br> Future development will be more endpoints, including more sorted ones such as; all words starting with letter 'b'<br> <a href='https://github.com/shyaboi/namegen2'> Github</a> <br><a href='https://shyaboi.github.io/namegen2/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Name Generator 2: <br> Revenge of Words</h1> <br> <p>This is a new version of a name/word Generator and an API. The front end is made with React and Material-ui; hosted on GitHub-pages. It is fast and responsive with over 400,000 words. The API server is made with Node.js and Express.js, and is currently hosted on Heroku. At the moment, the API has 8 endpoints, two that can support delivery of 100,000 or more random words to the user.  <br> Future development will be more endpoints, I recently added more sorted ones such as; an alpha/:letter? route that will respond with all the words starting with that letter.<br> <a href='https://github.com/shyaboi/namegen2'> React Site Github</a> <br><a href='https://github.com/shyaboi/namegenAPIserver'>Server Github</a> <br><a href='https://shyaboi.github.io/namegen2/'>Deployed Site</a></div>";
   }
   function forum() {
     var elem = document.getElementById("bigboi");
