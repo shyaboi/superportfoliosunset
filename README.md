@@ -1,1 +1,1 @@
-bump
+This is my portfolio that show projects I have done solo, or have been a part of.
