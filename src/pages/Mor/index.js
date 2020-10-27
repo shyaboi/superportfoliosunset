@@ -173,7 +173,7 @@ const Mor = ()=> {
           
           <a
             href="https://shyaboi.github.io/TubularRepoNameGeneratorSoldier/"
-            id="nameGen"
+            id="oldnameGen"
             class="card border-gradient border-gradient-purple"
             onMouseOver={nameGen}
           >

@@ -50,7 +50,7 @@ function Main() {
   function grocerEase() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application was a group project in my bootcamp. The MVP in this app is to bundle all your desired recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes. We used the UI-Kit framework and JQuery for the DOM manipulation. We used Axios to access the API at <a href='https://www.themealdb.com/'>The Meal DB </a>which has a small database of recepies.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>GrocerEase</h1> <br> <p>This application was a group project. The MVP in this app is to bundle all your desired recipes and generate an elegant shopping list of ingridients with exact amounts needed for all the total recipes. We used the UI-Kit framework and JQuery for the DOM manipulation. We used Axios to access the API at <a href='https://www.themealdb.com/'>The Meal DB </a>which has a small database of recepies.<br> <a href='https://github.com/shyaboi/grocerEASE'>Github</a> <br><a href='https://lorddominic.github.io/grocerEASE'>Deployed Site</a></div>";
   }
   function nameGen() {
     var elem = document.getElementById("bigboi");
@@ -62,16 +62,16 @@ function Main() {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>MuhForum</h1> <br> <p>I spent a lot of my youth in various forums, and I thought I should make my own. This is currently a work in progress. <br> It is made with Nodejs, express-handlebars and I am using UI kit for a front end framework. Mongo is the database and each post and all the replys are all stored in one object with nested arrays with no seperate relations in the DB.<br> Future plans include; a voting system that will tie into the position on the board.<br>This and MuhWalls 2 are hosted on the same instance. Soon to both be the Dingus Crew Community. Monitored by PM2.<br> <a href='https://github.com/shyaboi/forum'>Github</a> <br><a href='http://dinguscrew.com:5000/forum'>Deployed Site</a></div>";
   }
-  function jQ() {
+  function DingusChat() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>JQuery Weather</h1> <br> <p>This application can take an input of any city in open weathers DB with a fetch API and give current weather with a UV index, wind speed, and humidity, as well as a five day forcast. <br> This application is made only with HTML, Javascript, and JQuery. <br> <a href='https://github.com/shyaboi/DawnOfWeather'>Github</a> <br><a href='https://shyaboi.github.io/DawnOfWeather/'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Dingus Chat</h1> <br> <p>This is a chat component for the dinguscrew.com community site. The Dingus Chat client was made with React, Socket.io, and Ionic to easily make the client portable in the future to PWA, Mobile, and Electron app.<br>The server is made Node and Socket.io. Both server and UI site are hosted seperatly on Heroku at the moment <br> I am planning to add pictur/gif/link support in the chat. I also plan to add a voicechat comonent, video, and multiple chat rooms. <br><a href='https://github.com/shyaboi/multisocksClietn'>Client Github</a><br> <a href='https://github.com/shyaboi/multisocks'>Server Github</a> <br><a href='https://shyaboi.github.io/DawnOfWeather/'>Deployed Site</a></div>";
   }
   
   function pokemon() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
-    "<div id='newMidDiv'><h1>Pokemon</h1> <br> <p>This application was a group project in my bootcamp. In this app, you can add pokemon to a mySQL database, and them have them all printed on a pokedex screen. There is another fight screen availible where you choose two pokemon by number and one will attack until the other 'dies'</p>  This site was made with express and express handlesbars, with a node server accessing a mySQL DB with sequalize.(this app is currently hosted on heroku, whos servers get put to 'sleep', so sometimes I have a <a href='https://github.com/shyaboi/wonkycron'>homeade Cron</a> To keep the instance alive) <br> <a href='https://github.com/shyaboi/Dope-Pokemon-Dopeness'>Github</a> <br><a href='https://glacial-beyond-53964.herokuapp.com/pokedex'>Deployed Site</a></div>";
+    "<div id='newMidDiv'><h1>Pokemon</h1> <br> <p>This application was a group project. In this app, you can add pokemon to a mySQL database, and them have them all printed on a pokedex screen. There is another fight screen availible where you choose two pokemon by number and one will attack until the other 'dies'</p>  This site was made with express and express handlesbars, with a node server accessing a mySQL DB with sequalize.(this app is currently hosted on heroku, whos servers get put to 'sleep', so sometimes I have a <a href='https://github.com/shyaboi/wonkycron'>homeade Cron</a> To keep the instance alive) <br> <a href='https://github.com/shyaboi/Dope-Pokemon-Dopeness'>Github</a> <br><a href='https://glacial-beyond-53964.herokuapp.com/pokedex'>Deployed Site</a></div>";
   }
   function facade() {
     var elem = document.getElementById("bigboi");
@@ -87,6 +87,24 @@ function Main() {
     <div className="App">
       <header className="App-header" onMouseLeave={originalDiv}>
         <section class="animated-grid">
+
+        <a
+            href="http://dinguscrew.com:5000/forum"
+            id="forum"
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={forum}
+          >
+            <p id="desc">DingusCrew Forum</p>
+          </a>
+
+          <a
+            href="http://dinguscrew.com:8080"
+            id="walls2"
+            className="card border-gradient border-gradient-purple"
+            onMouseOver={muhWalls2}
+          >
+            <p id="desc">DingusCrew Wallpapers2</p>
+          </a>
         <a
             href="https://shyaboi.github.io/namegen2/"
             id="nameGen"
@@ -97,14 +115,6 @@ function Main() {
           </a>
          
 
-          <a
-            href="http://dinguscrew.com:8080"
-            id="walls2"
-            className="card border-gradient border-gradient-purple"
-            onMouseOver={muhWalls2}
-          >
-            <p id="desc">MuhWalls 2</p>
-          </a>
           <a
             href="https://openflags.net/"
             id="flagAPI"
@@ -124,14 +134,7 @@ function Main() {
           </a>
 
 
-          <a
-            href="http://dinguscrew.com:5000/forum"
-            id="forum"
-            class="card border-gradient border-gradient-purple"
-            onMouseOver={forum}
-          >
-            <p id="desc">MuhForum</p>
-          </a>
+       
          
           <a
             href="https://shyaboi.github.io/wordapp/"
@@ -182,14 +185,6 @@ function Main() {
 
     
 
-          <a
-            href="https://shyaboi.github.io/DawnOfWeather/"
-            id="jQ"
-            class="card border-gradient border-gradient-purple"
-            onMouseOver={jQ}
-          >
-            <p id="desc">JQuery Weather</p>
-          </a>
 
           <a
             href="https://glacial-beyond-53964.herokuapp.com/pokedex"
@@ -200,6 +195,15 @@ function Main() {
             <p id="desc">Pokemon</p>
           </a>
 
+
+          <a
+            href="https://dinguschat.herokuapp.com/home"
+            id="dingusChat"
+            class="card border-gradient border-gradient-purple"
+            onMouseOver={DingusChat}
+          >
+            <p id="desc">DingusChat</p>
+          </a>
           <div
             id="bigboi"
             className="card border-gradient border-gradient-purp"
