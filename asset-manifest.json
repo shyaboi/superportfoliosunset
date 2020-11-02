@@ -1,34 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.153c744c.chunk.css",
-    "main.js": "/static/js/main.4cb3e840.chunk.js",
-    "main.js.map": "/static/js/main.4cb3e840.chunk.js.map",
+    "main.css": "/static/css/main.67fb661c.chunk.css",
+    "main.js": "/static/js/main.ce2e2c86.chunk.js",
+    "main.js.map": "/static/js/main.ce2e2c86.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.93077c78.js",
     "runtime-main.js.map": "/static/js/runtime-main.93077c78.js.map",
-    "static/js/2.cc79b556.chunk.js": "/static/js/2.cc79b556.chunk.js",
-    "static/js/2.cc79b556.chunk.js.map": "/static/js/2.cc79b556.chunk.js.map",
+    "static/js/2.523cf761.chunk.js": "/static/js/2.523cf761.chunk.js",
+    "static/js/2.523cf761.chunk.js.map": "/static/js/2.523cf761.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72d69d26dd314e2e47229f9a3ac77166.js": "/precache-manifest.72d69d26dd314e2e47229f9a3ac77166.js",
+    "precache-manifest.a238b466d5a4438d13e981d0fbebcd87.js": "/precache-manifest.a238b466d5a4438d13e981d0fbebcd87.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.153c744c.chunk.css.map": "/static/css/main.153c744c.chunk.css.map",
-    "static/js/2.cc79b556.chunk.js.LICENSE.txt": "/static/js/2.cc79b556.chunk.js.LICENSE.txt",
+    "static/css/main.67fb661c.chunk.css.map": "/static/css/main.67fb661c.chunk.css.map",
+    "static/js/2.523cf761.chunk.js.LICENSE.txt": "/static/js/2.523cf761.chunk.js.LICENSE.txt",
     "static/media/adobe.png": "/static/media/adobe.1357af94.png",
-    "static/media/chat.jpg": "/static/media/chat.538d5a07.jpg",
     "static/media/construct.jpg": "/static/media/construct.32fb1b05.jpg",
     "static/media/cv.png": "/static/media/cv.42d46d1c.png",
     "static/media/style.css": "/static/media/word.d64c0542.png",
     "static/media/github.png": "/static/media/github.88e95f47.png",
     "static/media/home.png": "/static/media/home.811b8f44.png",
     "static/media/linked.png": "/static/media/linked.40b5c052.png",
-    "static/media/palm.png": "/static/media/palm.8c42f4b3.png",
     "static/media/prof.mp4": "/static/media/prof.7f56e0a7.mp4",
-    "static/media/sun.png": "/static/media/sun.5d13bc55.png",
     "static/media/youtube.png": "/static/media/youtube.a029dc0b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.93077c78.js",
-    "static/js/2.cc79b556.chunk.js",
-    "static/css/main.153c744c.chunk.css",
-    "static/js/main.4cb3e840.chunk.js"
+    "static/js/2.523cf761.chunk.js",
+    "static/css/main.67fb661c.chunk.css",
+    "static/js/main.ce2e2c86.chunk.js"
   ]
 }
