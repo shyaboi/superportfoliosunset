@@ -1,11 +1,7 @@
 import React from 'react';
 import './style.css';
-// import neckbard from '../../imgs/neckbard.jpg'
-import Video from "../../components/video";
-
-
 import construct from '../../imgs/construct.jpg'
-import chat from '../../imgs/chat.jpg'
+
 const Mor = ()=> {
     const noDobe = ()=> {
     var elem = document.getElementById("bigboi");
@@ -29,13 +25,13 @@ const Mor = ()=> {
     elem.innerHTML =
     "<div id='newMidDiv'><h1>Sorting API</h1> <br> <p>This is a sorting algorithm API. Currently there are 3 routes. This application was built with Python, and the flask framework. It is currently being hosted on an Heroku<br> <a href='https://github.com/shyaboi/muhsortingalgos'>Github</a> <br><a href='https://sortpy.herokuapp.com/'>Deployed Site</a><br><a href='https://sortpy.herokuapp.com/api/docs'>Documentation</a></p></div>";
   }
-  function muhWalls2() {
-    var elem = document.getElementById("bigboi");
-    elem.classList.add("fade");
-    elem.innerHTML =
-      "<div id='newMidDiv'><h1>MuhWalls 2</h1> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server was hosted on a google cloud Linux VM en1 machine, but has been fully migrated to AWS EC2 Instance and S3 Storage, and is hosted on the same instance as MuhForums. Soon to both be the Dingus Crew Community. Monitored by PM2.<br> <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='http://dinguscrew.com:8080'>Deployed Site</a></p></div>";
+  // function muhWalls2() {
+  //   var elem = document.getElementById("bigboi");
+  //   elem.classList.add("fade");
+  //   elem.innerHTML =
+  //     "<div id='newMidDiv'><h1>MuhWalls 2</h1> <p>This is my second go at a wallpaper site. This time i have a full mongo DB, and scrapped the react front end.<br> The db is intaking a new name, an id number ontop of the number mongo assigns. <br> It also takes in the pictures height and width and then calculates the aspect ratio. <br> It will have a custom time stamp that can be sorted by. Ther is also an array of keywords on every photo that are globally searchable on click. <br> This site and server was hosted on a google cloud Linux VM en1 machine, but has been fully migrated to AWS EC2 Instance and S3 Storage, and is hosted on the same instance as MuhForums. Soon to both be the Dingus Crew Community. Monitored by PM2.<br> <a href='https://github.com/shyaboi/MuhWalls'>Github</a> <br><a href='http://dinguscrew.com:8080'>Deployed Site</a></p></div>";}
 
-  }
+
   function npop() {
     var elem = document.getElementById("bigboi");
     elem.innerHTML =
@@ -205,7 +201,7 @@ const Mor = ()=> {
             className="card border-gradient border-gradient-purp"
           >
             <div id="newMidDiv">
-           <img src={construct}></img>
+           <img src={construct} alt='under construction'></img>
             </div>
           </div>
         </section>

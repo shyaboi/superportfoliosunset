@@ -86,12 +86,12 @@ function Main() {
   return (
     <div className="App">
       <header className="App-header" onMouseLeave={originalDiv}>
-        <section class="animated-grid">
+        <section className="animated-grid">
 
         <a
             href="http://dinguscrew.com:5000/forum"
             id="forum"
-            class="card border-gradient border-gradient-purple"
+            className="card border-gradient border-gradient-purple"
             onMouseOver={forum}
           >
             <p id="desc">DingusCrew Forum</p>
@@ -108,7 +108,7 @@ function Main() {
         <a
             href="https://shyaboi.github.io/namegen2/"
             id="nameGen"
-            class="card border-gradient border-gradient-purple"
+            className="card border-gradient border-gradient-purple"
             onMouseOver={nameGen}
           >
             <p id="desc">Name Generator 2</p>
@@ -139,7 +139,7 @@ function Main() {
           <a
             href="https://shyaboi.github.io/wordapp/"
             id="word"
-            class="card border-gradient border-gradient-purple"
+            className="card border-gradient border-gradient-purple"
             onMouseOver={word}
           >
             <p id="desc">Fun with strings</p>
@@ -189,7 +189,7 @@ function Main() {
           <a
             href="https://glacial-beyond-53964.herokuapp.com/pokedex"
             id="pokemon"
-            class="card border-gradient border-gradient-purple"
+            className="card border-gradient border-gradient-purple"
             onMouseOver={pokemon}
           >
             <p id="desc">Pokemon</p>
@@ -199,7 +199,7 @@ function Main() {
           <a
             href="https://dinguschat.herokuapp.com/home"
             id="dingusChat"
-            class="card border-gradient border-gradient-purple"
+            className="card border-gradient border-gradient-purple"
             onMouseOver={DingusChat}
           >
             <p id="desc">DingusChat</p>
