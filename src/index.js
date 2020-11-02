@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import P5sketch from '../src/components/P5/P5backround'
 const axios = require('axios');
 
 const wakeUpSamurai = async () => {
@@ -46,6 +47,7 @@ biffit2()
 ReactDOM.render(
   <React.StrictMode>
 
+    <P5sketch />
     <App />
 
   </React.StrictMode>,
