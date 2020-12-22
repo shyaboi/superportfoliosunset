@@ -14,7 +14,7 @@ export default function Contact() {
       }, (error) => {
           console.log(error.text);
       });
-  alert('Thank you for reaching out to me! I will get back to you as soon as i can :)');
+  alert('oofs');
 
     }
     
