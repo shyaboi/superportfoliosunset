@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/superportfoliosunset/static/css/main.2bc4d6eb.chunk.css",
-    "main.js": "/superportfoliosunset/static/js/main.40bb53a2.chunk.js",
-    "main.js.map": "/superportfoliosunset/static/js/main.40bb53a2.chunk.js.map",
+    "main.js": "/superportfoliosunset/static/js/main.48f89c05.chunk.js",
+    "main.js.map": "/superportfoliosunset/static/js/main.48f89c05.chunk.js.map",
     "runtime-main.js": "/superportfoliosunset/static/js/runtime-main.bc294200.js",
     "runtime-main.js.map": "/superportfoliosunset/static/js/runtime-main.bc294200.js.map",
     "static/js/2.e0645246.chunk.js": "/superportfoliosunset/static/js/2.e0645246.chunk.js",
     "static/js/2.e0645246.chunk.js.map": "/superportfoliosunset/static/js/2.e0645246.chunk.js.map",
     "index.html": "/superportfoliosunset/index.html",
-    "precache-manifest.9f70ebee427848d87ada76259024c6f5.js": "/superportfoliosunset/precache-manifest.9f70ebee427848d87ada76259024c6f5.js",
+    "precache-manifest.033a6a8aca3420567084c3dcc3478b4b.js": "/superportfoliosunset/precache-manifest.033a6a8aca3420567084c3dcc3478b4b.js",
     "service-worker.js": "/superportfoliosunset/service-worker.js",
     "static/css/main.2bc4d6eb.chunk.css.map": "/superportfoliosunset/static/css/main.2bc4d6eb.chunk.css.map",
     "static/js/2.e0645246.chunk.js.LICENSE.txt": "/superportfoliosunset/static/js/2.e0645246.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.bc294200.js",
     "static/js/2.e0645246.chunk.js",
     "static/css/main.2bc4d6eb.chunk.css",
-    "static/js/main.40bb53a2.chunk.js"
+    "static/js/main.48f89c05.chunk.js"
   ]
 }
