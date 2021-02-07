@@ -14,15 +14,15 @@ import Mor from './pages/Mor';
 
 function App() {
   return (
-    
+
     <div className="App">
     <Router>
 
   <Navbar />
-  <Route exact path="/" component={Main} />
+  <Route exact path="/superportfoliosunset/" component={Main} />
 
- <Route exact path="/Contact" component={Contact} />
- <Route exact path="/Mor" component={Mor} />
+ <Route exact path="/superportfoliosunset/Contact" component={Contact} />
+ <Route exact path="/superportfoliosunset/Mor" component={Mor} />
  <li
               className="nav-item"
               id="Mor"
@@ -30,9 +30,9 @@ function App() {
             >
               <Link
                 style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/Mor"
+                to="/superportfoliosunset/Mor"
                 className={
-                  window.location.pathname === "/"
+                  window.location.pathname === "/superportfoliosunset/"
                     ? "nav-link active"
                     : "nav-link"
                 }

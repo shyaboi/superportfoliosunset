@@ -5,11 +5,11 @@ import Home from "../../imgs/home.png";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
-  
+
   return (
     <nav id="nav" className="navbar navbar-expand-lg navbar-light bg-light" >
       <div id="homeButt">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/superportfoliosunset/">
           <img src={Home} alt="home" />
         </Link>
       </div>
@@ -23,9 +23,9 @@ function Navbar() {
             >
               <Link
                 style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/Contact"
+                to="/superportfoliosunset/Contact"
                 className={
-                  window.location.pathname === "/Contact"
+                  window.location.pathname === "/superportfoliosunset//Contact"
                     ? "nav-link active"
                     : "nav-link"
                 }
